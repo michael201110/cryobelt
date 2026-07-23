@@ -12476,7 +12476,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b06868d7-9429-4242-901f-1f39e90823cf")
 		(property "Reference" "R21"
 			(at 233.68 29.2099 0)
@@ -12486,7 +12485,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2k"

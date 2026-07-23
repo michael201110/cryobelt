@@ -160,7 +160,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1016,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -529,9 +529,9 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.1016,
-        "diff_pair_width": 0.1016,
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
@@ -592,6 +592,18 @@
       {
         "netclass": "PWR",
         "pattern": "/Power/SW"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Power/GATE_PMID"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Fan Control/FAN+"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Fan Control/FAN-"
       }
     ]
   },

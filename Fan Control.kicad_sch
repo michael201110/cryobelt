@@ -2307,7 +2307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery"
+		(property "Value" "Fan"
 			(at 149.86 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
