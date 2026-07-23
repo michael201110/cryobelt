@@ -3280,6 +3280,10 @@
 		(uuid "36cb31f9-e1ec-4370-ac8a-0569af7f690a")
 	)
 	(no_connect
+		(at 119.38 88.9)
+		(uuid "3be8983a-738f-47d9-b5f1-4c4a16073eaf")
+	)
+	(no_connect
 		(at 88.9 86.36)
 		(uuid "3ca22864-bd87-47c4-ac4d-4dbdb7001b71")
 	)
@@ -3292,12 +3296,12 @@
 		(uuid "3fc0f961-6dcd-44d0-89f8-a0f580f2239f")
 	)
 	(no_connect
-		(at 88.9 55.88)
-		(uuid "4faabd63-6b4f-4a3b-920e-d181b92e7b6f")
+		(at 119.38 55.88)
+		(uuid "4136f6a5-e65a-45c7-a923-7863553f39f6")
 	)
 	(no_connect
-		(at 119.38 68.58)
-		(uuid "54af62f2-1822-4f20-a748-4fdd93dd66e2")
+		(at 88.9 55.88)
+		(uuid "4faabd63-6b4f-4a3b-920e-d181b92e7b6f")
 	)
 	(no_connect
 		(at 119.38 63.5)
@@ -3310,10 +3314,6 @@
 	(no_connect
 		(at 88.9 58.42)
 		(uuid "87301db9-57d1-4e03-831c-08bb55dd2410")
-	)
-	(no_connect
-		(at 119.38 71.12)
-		(uuid "9044f62d-173a-4048-8098-b3abd3c5ebde")
 	)
 	(no_connect
 		(at 119.38 45.72)
@@ -3340,12 +3340,12 @@
 		(uuid "b0551f90-4daa-48f0-b76d-ef6ee936c949")
 	)
 	(no_connect
-		(at 119.38 58.42)
-		(uuid "b9ceb003-e4f1-4533-a693-ea89904d9213")
-	)
-	(no_connect
 		(at 88.9 53.34)
 		(uuid "c49ddb76-f578-477f-ae40-09bd292680a2")
+	)
+	(no_connect
+		(at 119.38 86.36)
+		(uuid "e43bf809-ea8d-4dd0-96ea-0eab86707380")
 	)
 	(wire
 		(pts
@@ -3369,7 +3369,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 63.5) (xy 123.19 55.88)
+			(xy 123.19 63.5) (xy 123.19 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3399,13 +3399,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 55.88) (xy 119.38 55.88)
+			(xy 121.92 68.58) (xy 119.38 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11d0139f-7f99-4ee8-b2c3-66561b375941")
+		(uuid "0a5d2aef-4c15-41aa-a16a-ad10a0549534")
 	)
 	(wire
 		(pts
@@ -3456,6 +3456,16 @@
 			(type default)
 		)
 		(uuid "1d81267a-9508-44f5-b880-6aeea2d65a17")
+	)
+	(wire
+		(pts
+			(xy 119.38 58.42) (xy 123.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f52bfa0-21e9-4cd8-8d61-1930c6afe7de")
 	)
 	(wire
 		(pts
@@ -3586,16 +3596,6 @@
 			(type default)
 		)
 		(uuid "4ffdb250-382d-464d-b3d6-c83acd80ca87")
-	)
-	(wire
-		(pts
-			(xy 121.92 86.36) (xy 119.38 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "502d0fde-09b9-4ab3-b8bd-fd6253d68cd2")
 	)
 	(wire
 		(pts
@@ -3766,6 +3766,16 @@
 			(type default)
 		)
 		(uuid "93d78893-bc38-428d-b30a-8b235708269a")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 119.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949e8ba6-1770-4c26-8eb2-d4d70a69191f")
 	)
 	(wire
 		(pts
@@ -3986,16 +3996,6 @@
 			(type default)
 		)
 		(uuid "e4a04f81-63ad-444f-8041-d03728fef6c3")
-	)
-	(wire
-		(pts
-			(xy 121.92 88.9) (xy 119.38 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ba69d6-7365-49bd-890f-3be32f70c408")
 	)
 	(wire
 		(pts
@@ -5048,6 +5048,17 @@
 		)
 		(uuid "2c613fbd-3984-485e-a386-361fe51c355c")
 	)
+	(hierarchical_label "OUT2"
+		(shape input)
+		(at 121.92 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ff71fe4-dd08-40c9-b85a-1f99ab7a9150")
+	)
 	(hierarchical_label "ID"
 		(shape input)
 		(at 121.92 81.28 0)
@@ -5058,17 +5069,6 @@
 			(justify left)
 		)
 		(uuid "35a04753-01fc-4a5e-a2d4-52a36804927c")
-	)
-	(hierarchical_label "OUT1"
-		(shape input)
-		(at 121.92 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6981c839-56d8-4ee0-b705-53d9883468a0")
 	)
 	(hierarchical_label "OTG_GATE"
 		(shape output)
@@ -5081,17 +5081,6 @@
 		)
 		(uuid "72ca5043-144b-47f5-9ac5-948afd9f4cbe")
 	)
-	(hierarchical_label "OUT2"
-		(shape input)
-		(at 121.92 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72ec2282-abe7-4cc3-ae49-428868e6fcef")
-	)
 	(hierarchical_label "FAN_GATE"
 		(shape input)
 		(at 80.01 81.28 180)
@@ -5102,6 +5091,17 @@
 			(justify right)
 		)
 		(uuid "797b7db4-23d1-4200-9ac1-3931318bc762")
+	)
+	(hierarchical_label "OUT1"
+		(shape input)
+		(at 121.92 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c74b270-8d0c-4ea8-9a08-922f659c7fdc")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -5703,7 +5703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 19.05 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9991,7 +9991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 46.99 36.83 0)
 			(hide yes)
 			(show_name no)
