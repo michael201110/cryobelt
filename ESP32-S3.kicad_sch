@@ -3336,6 +3336,10 @@
 		(uuid "ac4ad495-b362-4faa-8f79-fd39348e2c8c")
 	)
 	(no_connect
+		(at 110.49 147.32)
+		(uuid "ac8c6ab8-3cbb-46d7-9b04-0822374199e6")
+	)
+	(no_connect
 		(at 88.9 73.66)
 		(uuid "b0551f90-4daa-48f0-b76d-ef6ee936c949")
 	)
@@ -3786,16 +3790,6 @@
 			(type default)
 		)
 		(uuid "993c7584-d0fe-4c8e-85fd-c0501c21a66b")
-	)
-	(wire
-		(pts
-			(xy 115.57 147.32) (xy 110.49 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e77208-b083-4dda-a211-a2e91406230c")
 	)
 	(wire
 		(pts
@@ -4985,16 +4979,6 @@
 			(justify left bottom)
 		)
 		(uuid "9914d2cc-7af3-4ed1-9583-53af55d1faa5")
-	)
-	(label "DOUT"
-		(at 115.57 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd3857d1-36b9-4b48-b329-28923a1a1150")
 	)
 	(label "LRCLK"
 		(at 81.28 91.44 0)
