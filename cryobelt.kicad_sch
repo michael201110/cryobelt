@@ -246,6 +246,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 99.06) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33352ba4-ab03-43b0-9c0e-562a5e4d6b3d")
+	)
+	(wire
+		(pts
 			(xy 134.62 82.55) (xy 148.59 82.55)
 		)
 		(stroke
@@ -276,7 +286,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 148.59 111.76)
+			(xy 134.62 115.57) (xy 148.59 115.57)
 		)
 		(stroke
 			(width 0)
@@ -296,7 +306,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 101.6) (xy 148.59 101.6)
+			(xy 134.62 105.41) (xy 148.59 105.41)
 		)
 		(stroke
 			(width 0)
@@ -306,7 +316,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 114.3) (xy 148.59 114.3)
+			(xy 134.62 118.11) (xy 148.59 118.11)
 		)
 		(stroke
 			(width 0)
@@ -316,7 +326,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 99.06) (xy 148.59 99.06)
+			(xy 134.62 102.87) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
@@ -993,7 +1003,7 @@
 		)
 	)
 	(sheet
-		(at 148.59 109.22)
+		(at 148.59 113.03)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1009,7 +1019,7 @@
 		)
 		(uuid "ab28a137-5ca4-49ec-83fd-1c9558542ea3")
 		(property "Sheetname" "Fan Control"
-			(at 148.59 108.5084 0)
+			(at 148.59 112.3184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1020,7 +1030,7 @@
 			)
 		)
 		(property "Sheetfile" "Fan Control.kicad_sch"
-			(at 148.59 117.4246 0)
+			(at 148.59 121.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1031,7 +1041,7 @@
 			)
 		)
 		(pin "FAN_GATE" input
-			(at 148.59 111.76 180)
+			(at 148.59 115.57 180)
 			(uuid "ac9fc6c0-3943-473b-b101-9a788d159b94")
 			(effects
 				(font
@@ -1041,7 +1051,7 @@
 			)
 		)
 		(pin "I_FAN" output
-			(at 148.59 114.3 180)
+			(at 148.59 118.11 180)
 			(uuid "6a4fe2fe-bd9b-457b-adbb-cc2f5f0eae8c")
 			(effects
 				(font
@@ -1060,7 +1070,7 @@
 	)
 	(sheet
 		(at 121.92 68.58)
-		(size 12.7 48.26)
+		(size 12.7 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1086,7 +1096,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32-S3.kicad_sch"
-			(at 121.92 117.4246 0)
+			(at 121.92 121.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1137,7 +1147,7 @@
 			)
 		)
 		(pin "FAN_GATE" input
-			(at 134.62 111.76 0)
+			(at 134.62 115.57 0)
 			(uuid "f2d45774-8226-4d2b-ab14-07a7eb1d6502")
 			(effects
 				(font
@@ -1147,7 +1157,7 @@
 			)
 		)
 		(pin "I_FAN" input
-			(at 134.62 114.3 0)
+			(at 134.62 118.11 0)
 			(uuid "31c66715-6a84-480d-8769-8d90b83d9e76")
 			(effects
 				(font
@@ -1197,7 +1207,7 @@
 			)
 		)
 		(pin "OUT1" input
-			(at 134.62 99.06 0)
+			(at 134.62 102.87 0)
 			(uuid "67738412-c105-44fd-b988-051b25f33d99")
 			(effects
 				(font
@@ -1207,8 +1217,18 @@
 			)
 		)
 		(pin "OUT2" input
-			(at 134.62 101.6 0)
+			(at 134.62 105.41 0)
 			(uuid "4eb50837-fe39-47aa-ae06-2c25de673b41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OTG" output
+			(at 134.62 99.06 0)
+			(uuid "80c7086b-d4d5-40d0-b431-7380501d824c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1246,7 @@
 	)
 	(sheet
 		(at 148.59 68.58)
-		(size 12.7 35.56)
+		(size 12.7 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1252,7 +1272,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 148.59 104.7246 0)
+			(at 148.59 108.5346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1343,7 +1363,7 @@
 			)
 		)
 		(pin "OUT1" output
-			(at 148.59 99.06 180)
+			(at 148.59 102.87 180)
 			(uuid "e9bc5f61-4367-4617-9fa5-81b3e9d0e7b9")
 			(effects
 				(font
@@ -1353,8 +1373,18 @@
 			)
 		)
 		(pin "OUT2" output
-			(at 148.59 101.6 180)
+			(at 148.59 105.41 180)
 			(uuid "a2703d38-5a99-4341-8c83-39300a6d79f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OTG" input
+			(at 148.59 99.06 180)
+			(uuid "39007744-3c9e-4c21-b7fd-76d0e7c3ecd0")
 			(effects
 				(font
 					(size 1.27 1.27)
