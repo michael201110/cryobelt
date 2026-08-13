@@ -558,6 +558,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -5845,6 +5968,12 @@
 		(uuid "1663db93-4fe4-4d5a-b3b6-a71b6fd06762")
 	)
 	(junction
+		(at 267.97 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c101ee5-56c3-4723-8cbb-cb773d2a498f")
+	)
+	(junction
 		(at 36.83 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5893,7 +6022,7 @@
 		(uuid "4b8ac534-0d07-4967-80e7-3f698c4d2af8")
 	)
 	(junction
-		(at 246.38 129.54)
+		(at 247.65 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4be0261f-41d6-4d93-bb95-ee7e8619be10")
@@ -5921,6 +6050,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dc454fc-f5f3-4753-a39a-6a5293a90289")
+	)
+	(junction
+		(at 49.53 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52c8a257-a8eb-4148-9f9d-926f4388544a")
 	)
 	(junction
 		(at 116.84 132.08)
@@ -5969,6 +6104,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ccce981-6fb4-4c3b-b629-cc6d12126a5b")
+	)
+	(junction
+		(at 243.84 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e29e89d-c292-43dc-8285-2e9806b5fc53")
 	)
 	(junction
 		(at 214.63 129.54)
@@ -6055,10 +6196,6 @@
 		(uuid "fa5fe95b-39ae-44a0-8d79-bd63f823a2b6")
 	)
 	(no_connect
-		(at 243.84 137.16)
-		(uuid "087ac7c3-4b40-4a62-8852-9a43b3c0103f")
-	)
-	(no_connect
 		(at 77.47 49.53)
 		(uuid "0e4efd77-cb81-4f69-aefb-45a5a29e027e")
 	)
@@ -6089,10 +6226,6 @@
 	(no_connect
 		(at 208.28 41.91)
 		(uuid "f49b25c6-74b8-4924-a937-35b5141f49ad")
-	)
-	(no_connect
-		(at 208.28 69.85)
-		(uuid "f5a2e4eb-5fac-4ec6-a657-70f92c9cd774")
 	)
 	(wire
 		(pts
@@ -6356,13 +6489,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 129.54) (xy 243.84 129.54)
+			(xy 205.74 69.85) (xy 208.28 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48bc465f-5f7e-441b-9bfd-f12f5f574d33")
+		(uuid "4aa8a4bf-0003-4651-b114-7ef65aca546b")
 	)
 	(wire
 		(pts
@@ -6453,6 +6586,16 @@
 			(type default)
 		)
 		(uuid "6620d098-38da-4c2c-bf54-4513ec94d15b")
+	)
+	(wire
+		(pts
+			(xy 254 129.54) (xy 247.65 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669827cb-7891-4f22-b6d5-f6bb16982da9")
 	)
 	(wire
 		(pts
@@ -6583,6 +6726,16 @@
 			(type default)
 		)
 		(uuid "8b2c9ab6-9ca6-4483-a054-42701548c649")
+	)
+	(wire
+		(pts
+			(xy 243.84 129.54) (xy 243.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1383cd-130a-46cd-9ba7-6f09aa727608")
 	)
 	(wire
 		(pts
@@ -6846,6 +6999,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 69.85) (xy 198.12 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a30c13-5c62-4487-ad12-89006abcddda")
+	)
+	(wire
+		(pts
 			(xy 146.05 147.32) (xy 144.78 147.32)
 		)
 		(stroke
@@ -6883,6 +7046,16 @@
 			(type default)
 		)
 		(uuid "cbabbe9e-0c25-4b12-95d1-d8647439bcdc")
+	)
+	(wire
+		(pts
+			(xy 243.84 129.54) (xy 247.65 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbec5743-3d3f-4cd4-b26d-5614c23bed8e")
 	)
 	(wire
 		(pts
@@ -6943,6 +7116,16 @@
 			(type default)
 		)
 		(uuid "de25cfd0-2635-4d90-9869-3f2c427fe5c4")
+	)
+	(wire
+		(pts
+			(xy 196.85 71.12) (xy 196.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defbb653-ef08-4439-9c74-3987fe0d02e2")
 	)
 	(wire
 		(pts
@@ -7428,7 +7611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b54906-3f91-411a-884e-f246f35abbdb")
-		(property "Reference" "R18"
+		(property "Reference" "R15"
 			(at 179.07 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7492,7 +7675,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "R18")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7589,7 +7772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0658c201-3aff-430d-b3bf-acfd652f357d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR045"
 			(at 92.71 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -7649,7 +7832,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR049")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7667,7 +7850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "076873fd-4374-4b73-b7fa-a2b0927a6928")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 45.72 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7728,7 +7911,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7828,7 +8011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18c4b9a8-ea9a-4ba6-80bb-e7e9633b98d7")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR057"
 			(at 176.53 127 0)
 			(hide yes)
 			(show_name no)
@@ -7888,7 +8071,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR060")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7905,7 +8088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22a23f5f-7e35-4300-bcd0-f64a5f45f42e")
-		(property "Reference" "R22"
+		(property "Reference" "R19"
 			(at 228.6 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7969,7 +8152,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "R22")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8075,7 +8258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "305ec9a8-00af-468a-b902-7c72bee0888b")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 93.98 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8139,7 +8322,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8157,7 +8340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "325a099c-e49a-4a83-9341-5d08d6422abf")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR050"
 			(at 134.62 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -8217,7 +8400,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR053")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8235,7 +8418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35604453-c032-48a1-97ab-8243ff73c94e")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR052"
 			(at 146.05 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8295,7 +8478,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR054")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8313,7 +8496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ace8a78-ce3e-4370-a8b2-903327a81715")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR043"
 			(at 81.28 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8373,7 +8556,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR048")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8391,7 +8574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c452229-a91a-483e-8507-5713b8acefd2")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 85.09 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8455,7 +8638,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8473,7 +8656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c9a228d-9547-4767-834e-32d13d3494a4")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR056"
 			(at 166.37 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8533,7 +8716,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR059")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -8620,6 +8803,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 201.93 69.85 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "413db761-d8e0-4674-97cb-2cf617d46b78")
+		(property "Reference" "R26"
+			(at 201.93 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 201.93 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 201.93 71.628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "871ca37d-b02e-4e7f-9125-07ce31a4b064")
+		)
+		(pin "2"
+			(uuid "a78efaab-5a2b-4638-a170-a6de428c4c8b")
+		)
+		(instances
+			(project "cryobelt"
+				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 152.4 0)
 		(unit 1)
@@ -8631,7 +8894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4564ca0f-abc0-4559-8938-14d1df8061cf")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR054"
 			(at 156.21 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -8691,7 +8954,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR056")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -8709,7 +8972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4753d901-7e27-4333-b7d5-9523fcb1d1e0")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR076"
 			(at 261.62 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8769,7 +9032,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR079")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -8786,7 +9049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f0f3c8e-03c1-4f2e-9b96-25e73d60ac8c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 69.85 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8846,7 +9109,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8863,7 +9126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50beadcf-ac20-44ae-ab86-8046bb6a0ed6")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 58.42 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8923,7 +9186,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9103,7 +9366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "557eb838-6860-4849-bc19-feb8587cead5")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR063"
 			(at 200.66 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9164,7 +9427,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR066")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9264,7 +9527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58c0dcdb-3e36-48e9-9d3b-8ce996e5a644")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR058"
 			(at 176.53 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9324,7 +9587,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR061")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9424,7 +9687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c6b81d7-eab9-447a-a88c-77cee984b5ff")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR061"
 			(at 204.47 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9484,7 +9747,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR064")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -9653,6 +9916,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 254 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63741522-782c-40ca-ab42-3234f5ea018a")
+		(property "Reference" "TP3"
+			(at 259.08 128.2699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 259.08 130.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 254 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 254 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "068e927e-1087-43d6-9f8c-97bf26038849")
+		)
+		(instances
+			(project "cryobelt"
+				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:TPS61089")
 		(at 134.62 139.7 0)
 		(unit 1)
@@ -9771,7 +10113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "682164df-d3fd-4258-9fb2-039627872d36")
-		(property "Reference" "R24"
+		(property "Reference" "R21"
 			(at 241.3 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9833,7 +10175,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "R24")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -10000,7 +10342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d903d53-d11b-4928-bed3-76127f19bd34")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR046"
 			(at 92.71 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10060,7 +10402,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR050")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10183,7 +10525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "743b41ae-89bc-4b57-828c-1ff57d11b33e")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR059"
 			(at 196.85 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10244,7 +10586,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR062")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -10262,7 +10604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74b4658c-79ee-4459-859e-26937481c45b")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR062"
 			(at 210.82 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10323,7 +10665,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR065")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -10341,7 +10683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76b588d4-4eae-45e2-aa4a-fe7f12fdeef5")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR049"
 			(at 116.84 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -10401,7 +10743,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR051")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10419,7 +10761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77756596-82be-4a15-81de-04c25400d891")
-		(property "Reference" "R19"
+		(property "Reference" "R16"
 			(at 179.07 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10483,7 +10825,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "R19")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10501,7 +10843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cfb071c-e554-4f56-9d05-8b29207a8a1e")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR069"
 			(at 242.57 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10561,7 +10903,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR072")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -10579,7 +10921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fe5c345-94d8-4788-98a0-ca041224ad52")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 158.75 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10643,7 +10985,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10743,7 +11085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "813395f5-1817-4f87-8a3e-7a5bf9904bf9")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR067"
 			(at 232.41 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -10803,7 +11145,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR070")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -10985,7 +11327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85087553-4e20-420c-bc49-6623062f63f7")
-		(property "Reference" "R17"
+		(property "Reference" "R14"
 			(at 168.91 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11049,7 +11391,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "R17")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -11066,7 +11408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8635a65e-6bfd-4856-bc4e-f9fa883618d1")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR074"
 			(at 256.54 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11126,7 +11468,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR077")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -11134,7 +11476,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 246.38 133.35 0)
+		(at 247.65 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11145,7 +11487,7 @@
 		(fields_autoplaced yes)
 		(uuid "86e9bdb5-c211-41f7-9de0-679155f4d8d2")
 		(property "Reference" "C25"
-			(at 250.19 132.0799 0)
+			(at 251.46 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11156,7 +11498,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 250.19 134.6199 0)
+			(at 251.46 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11167,7 +11509,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 247.3452 137.16 0)
+			(at 248.6152 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11178,7 +11520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 133.35 0)
+			(at 247.65 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11189,7 +11531,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 246.38 133.35 0)
+			(at 247.65 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11226,7 +11568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8748b865-407a-43df-bdc2-f93f9e048c5f")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR075"
 			(at 256.54 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11286,7 +11628,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR078")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -11592,7 +11934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e6f4dc0-885b-4e57-ae94-2629322fdb39")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR077"
 			(at 261.62 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11652,7 +11994,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR080")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -11670,7 +12012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f106a62-1dd1-4e4b-bea9-626d99ad2401")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR070"
 			(at 241.3 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11731,7 +12073,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR073")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -11749,7 +12091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9168e599-50bd-4177-a498-85977b140544")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 85.09 19.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11813,7 +12155,86 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "C14")
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95cc71e0-5e2d-4b24-a231-fb31b2d41f26")
+		(property "Reference" "TP1"
+			(at 52.07 19.5579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 52.07 22.0979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 54.61 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e076e638-cd3a-47bb-be53-5b9a8ab3de9b")
+		)
+		(instances
+			(project "cryobelt"
+				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -11984,7 +12405,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 246.38 129.54 0)
+		(at 247.65 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11994,8 +12415,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c433a7e-e201-4d33-86cf-4369ca827969")
-		(property "Reference" "#PWR074"
-			(at 246.38 133.35 0)
+		(property "Reference" "#PWR071"
+			(at 247.65 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12006,7 +12427,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 246.38 124.46 0)
+			(at 247.65 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12016,7 +12437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 129.54 0)
+			(at 247.65 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12027,7 +12448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 129.54 0)
+			(at 247.65 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12038,7 +12459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 246.38 129.54 0)
+			(at 247.65 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12054,7 +12475,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR074")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -12318,7 +12739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa739a51-efba-4506-84ae-178617ba5b20")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR066"
 			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12378,7 +12799,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR069")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -12477,7 +12898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b06868d7-9429-4242-901f-1f39e90823cf")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 233.68 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12541,7 +12962,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "R21")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -12641,7 +13062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b34da317-fc75-4e9f-b3e5-f085fef37fb8")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR055"
 			(at 165.1 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12701,7 +13122,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR058")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -12801,7 +13222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5265716-7098-4461-960f-f4169e858b7f")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 119.38 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12865,7 +13286,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "R15")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12883,7 +13304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5bf0a32-00e2-48a8-a40b-29f4c2002b3f")
-		(property "Reference" "R20"
+		(property "Reference" "R17"
 			(at 217.17 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12947,7 +13368,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12965,7 +13386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b83fdffb-4ec8-410d-9542-4a236319df8a")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR078"
 			(at 267.97 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13025,7 +13446,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR081")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -13043,7 +13464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbb67f8b-3949-468a-ba3d-1391a0fb153c")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR060"
 			(at 194.31 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13103,7 +13524,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR063")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -13236,7 +13657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be08ad55-5ca4-4043-ad51-30ce3da24494")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 46.99 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13296,7 +13717,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -13658,7 +14079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5e7f67b-1354-4d58-a012-37f4a5b9dfd1")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR048"
 			(at 104.14 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -13719,7 +14140,164 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR052")
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 176.53 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb083817-9710-4c24-b504-a3e7f3c99865")
+		(property "Reference" "TP2"
+			(at 181.61 121.9199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 181.61 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 176.53 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 176.53 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4060c74c-2ec9-49e0-9695-52d677b0d3a7")
+		)
+		(instances
+			(project "cryobelt"
+				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde1a6ea-cc76-48f3-9be1-dc9a0e7fd2b7")
+		(property "Reference" "#PWR088"
+			(at 196.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c967dbec-43c8-4c0a-8c4e-78dca2fb087f")
+		)
+		(instances
+			(project "cryobelt"
+				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -13819,7 +14397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d42ff41c-6e94-400b-aa90-774ed5640952")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR065"
 			(at 218.44 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13879,7 +14457,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR068")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -13897,7 +14475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d53121d3-4a6e-4bdd-9ec7-a17a1c94953a")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR068"
 			(at 237.49 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13957,7 +14535,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR071")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -14057,6 +14635,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df0d0d55-ffc6-47c2-968e-065a8c149641")
+		(property "Reference" "TP4"
+			(at 270.51 57.6579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 60.1979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 273.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 267.97 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ab19f6f-e8b9-437d-bef3-58673893ec11")
+		)
+		(instances
+			(project "cryobelt"
+				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 250.19 50.8 0)
 		(unit 1)
@@ -14150,7 +14807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e185afe2-806e-4942-9721-f47102729993")
-		(property "Reference" "R14"
+		(property "Reference" "R11"
 			(at 109.22 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14214,7 +14871,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -14231,7 +14888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e53bae5e-f999-444c-a3d2-ce06e6225057")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR073"
 			(at 250.19 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -14291,7 +14948,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR076")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -14309,7 +14966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e60bd55f-82c5-4288-bb24-a2fcfd062af7")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR064"
 			(at 214.63 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14369,7 +15026,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR067")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -14469,7 +15126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8032965-491b-4a12-94fb-ea63b9181dca")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR051"
 			(at 139.7 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14529,7 +15186,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR057")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -14547,7 +15204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb6bd107-a76c-4ecd-81f2-33d45c8ae16b")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR053"
 			(at 153.67 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14607,7 +15264,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR055")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -14624,7 +15281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebba3d2f-0458-4ebd-9a57-b0418a3ee5c6")
-		(property "Reference" "R23"
+		(property "Reference" "R20"
 			(at 234.95 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14688,7 +15345,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "R23")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -14696,7 +15353,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 137.16 0)
+		(at 247.65 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14706,8 +15363,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec79372c-8165-4e5a-8c97-54b40de29695")
-		(property "Reference" "#PWR075"
-			(at 246.38 143.51 0)
+		(property "Reference" "#PWR072"
+			(at 247.65 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14718,7 +15375,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 142.24 0)
+			(at 247.65 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14728,7 +15385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 137.16 0)
+			(at 247.65 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14739,7 +15396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 137.16 0)
+			(at 247.65 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14750,7 +15407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 137.16 0)
+			(at 247.65 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14766,7 +15423,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR075")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -14869,7 +15526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8ff6677-44cd-4c33-ba70-8af950a3b4d0")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR042"
 			(at 71.12 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -14930,7 +15587,7 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/f0fd75cd-7ed2-4791-8ce1-d074cb984b6c"
-					(reference "#PWR046")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
