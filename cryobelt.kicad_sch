@@ -1040,9 +1040,9 @@
 				(justify left top)
 			)
 		)
-		(pin "FAN_GATE" input
-			(at 148.59 115.57 180)
-			(uuid "ac9fc6c0-3943-473b-b101-9a788d159b94")
+		(pin "I_FAN" output
+			(at 148.59 118.11 180)
+			(uuid "6a4fe2fe-bd9b-457b-adbb-cc2f5f0eae8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,9 +1050,9 @@
 				(justify left)
 			)
 		)
-		(pin "I_FAN" output
-			(at 148.59 118.11 180)
-			(uuid "6a4fe2fe-bd9b-457b-adbb-cc2f5f0eae8c")
+		(pin "FAN_PWM" input
+			(at 148.59 115.57 180)
+			(uuid "38422965-9a17-4b2c-8852-27fda7566665")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,16 +1146,6 @@
 				(justify right)
 			)
 		)
-		(pin "FAN_GATE" input
-			(at 134.62 115.57 0)
-			(uuid "f2d45774-8226-4d2b-ab14-07a7eb1d6502")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I_FAN" input
 			(at 134.62 118.11 0)
 			(uuid "31c66715-6a84-480d-8769-8d90b83d9e76")
@@ -1229,6 +1219,16 @@
 		(pin "OTG" output
 			(at 134.62 99.06 0)
 			(uuid "80c7086b-d4d5-40d0-b431-7380501d824c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN_PWM" output
+			(at 134.62 115.57 0)
+			(uuid "8813bd05-589b-406d-8f86-a1eb0d7cb7bc")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "Cryobelt")(type "KiCad")(uri "${KIPRJMOD}/libraries/Cryobelt.kicad_sym")(options "")(descr "Cryobelt project-local symbols"))
+  (lib (name "Cryobelt_Audio")(type "KiCad")(uri "${KIPRJMOD}/libraries/Cryobelt_Audio.kicad_sym")(options "")(descr "Project-local audio symbols"))
+  (lib (name "Cryobelt_ESP32")(type "KiCad")(uri "${KIPRJMOD}/libraries/Cryobelt_ESP32.kicad_sym")(options "")(descr "Project-local ESP32-S3 symbol"))
+  (lib (name "Cryobelt_Power")(type "KiCad")(uri "${KIPRJMOD}/libraries/Cryobelt_Power.kicad_sym")(options "")(descr "Project-local power symbols"))
+)

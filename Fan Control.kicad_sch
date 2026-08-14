@@ -199,7 +199,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -210,7 +210,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -219,7 +219,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
+			(property "Value" "Conn_01x03_Pin"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -251,11 +251,21 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -284,21 +294,44 @@
 					)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x03_Pin_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(rectangle
-					(start -1.27 0.127)
+					(start 0.8636 0.127)
 					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -307,9 +340,22 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -319,7 +365,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -337,7 +383,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -347,6 +393,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -652,7 +716,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3400A"
+		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -673,7 +737,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AO3400A"
+			(property "Value" "2N7002"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -697,7 +761,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -709,7 +773,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -720,7 +784,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -742,7 +806,7 @@
 					)
 				)
 			)
-			(symbol "AO3400A_0_1"
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -909,7 +973,7 @@
 					)
 				)
 			)
-			(symbol "AO3400A_1_1"
+			(symbol "2N7002_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1360,6 +1424,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "0.6A = 3.0V"
 		(exclude_from_sim no)
@@ -1382,10 +1561,22 @@
 		(uuid "99b09e7f-0f23-482e-8b52-e7bdfefd5ab7")
 	)
 	(junction
+		(at 138.43 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bf53656-fb2d-42c1-9e9d-1f6dc5b92835")
+	)
+	(junction
 		(at 83.82 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "731a8f20-2915-4610-9ab1-30edd41c2577")
+	)
+	(junction
+		(at 129.54 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86370fbc-545d-416d-bd8e-c363ce8504d3")
 	)
 	(junction
 		(at 97.79 82.55)
@@ -1406,16 +1597,26 @@
 		(uuid "bca87a7a-7bad-421e-8263-6699f0f4e947")
 	)
 	(junction
-		(at 165.1 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2d2a9ae-0c8d-4580-ad90-27b66fb8d84a")
-	)
-	(junction
 		(at 80.01 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2f5f201-5e9e-4aae-b45b-bcac99eaf9b0")
+	)
+	(junction
+		(at 109.22 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5519b30-c5c5-4276-95f9-9560467df15d")
+	)
+	(wire
+		(pts
+			(xy 137.16 104.14) (xy 138.43 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d2be60-2111-4d74-b64a-f407bd09925d")
 	)
 	(wire
 		(pts
@@ -1429,6 +1630,36 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 111.76) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c8c067-828e-4d26-8fb6-f230a37709cb")
+	)
+	(wire
+		(pts
+			(xy 143.51 111.76) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c00958a-3f9d-47fd-8ef4-70b9fc65d204")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 138.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c63e340-d972-440f-9e73-a337f3d2d31c")
+	)
+	(wire
+		(pts
 			(xy 83.82 87.63) (xy 83.82 82.55)
 		)
 		(stroke
@@ -1436,6 +1667,16 @@
 			(type default)
 		)
 		(uuid "189d25eb-9457-49ed-8117-771e91c6c628")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 138.43 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3614db92-20df-4900-a8c9-7dd63bcbd810")
 	)
 	(wire
 		(pts
@@ -1449,16 +1690,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 83.82) (xy 175.26 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53b11378-49aa-4673-844d-38019856c3b8")
-	)
-	(wire
-		(pts
 			(xy 76.2 87.63) (xy 76.2 82.55)
 		)
 		(stroke
@@ -1469,17 +1700,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 107.95) (xy 142.24 107.95)
+			(xy 149.86 114.3) (xy 156.21 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62c68ad4-64fc-4b12-9e14-89530d788ca0")
+		(uuid "5e4f4022-2f63-4ebe-93ab-245aa903cf72")
 	)
 	(wire
 		(pts
-			(xy 135.89 105.41) (xy 142.24 105.41)
+			(xy 149.86 109.22) (xy 156.21 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1519,13 +1750,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 167.64 88.9)
+			(xy 129.54 113.03) (xy 129.54 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f1180aa-2cc1-403a-bc2b-77b80f1d24f6")
+		(uuid "95b9a344-3f51-4fe9-95ac-decf9f40b0e7")
 	)
 	(wire
 		(pts
@@ -1539,6 +1770,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 92.71) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f9bc12-f2a8-41eb-81bf-1322425c1b8c")
+	)
+	(wire
+		(pts
 			(xy 64.77 92.71) (xy 67.31 92.71)
 		)
 		(stroke
@@ -1549,23 +1790,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 88.9) (xy 165.1 88.9)
+			(xy 129.54 104.14) (xy 129.54 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db2be1c1-ca60-46e4-872b-d6e2b11d25b6")
-	)
-	(wire
-		(pts
-			(xy 154.94 88.9) (xy 156.21 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3ef5dd5-79a6-4e27-9153-4cd9dfcece90")
+		(uuid "d05bf79c-a2e1-4ae4-9a07-499cb1a36baf")
 	)
 	(wire
 		(pts
@@ -1577,45 +1808,16 @@
 		)
 		(uuid "ec5ac477-c2df-4fb9-bbbf-43d4de269e04")
 	)
-	(label "FAN-"
-		(at 170.18 83.82 0)
+	(hierarchical_label "FAN_PWM"
+		(shape input)
+		(at 137.16 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "54ba02d3-691e-4792-9eae-a9d271644e8e")
-	)
-	(label "FAN+"
-		(at 109.22 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "626ecbd3-84c9-4d22-97f4-5242fb7a15bc")
-	)
-	(label "FAN-"
-		(at 135.89 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab7543c7-fc71-4a93-9f28-36fef1a457f5")
-	)
-	(label "FAN+"
-		(at 135.89 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce8c1ef1-7455-471f-b384-194714f3f67f")
+		(uuid "38267e10-bef9-4602-8379-7e25cd4c9c7f")
 	)
 	(hierarchical_label "I_FAN"
 		(shape output)
@@ -1627,17 +1829,6 @@
 			(justify right)
 		)
 		(uuid "ad7e9844-af25-473d-9223-77c045fd28a0")
-	)
-	(hierarchical_label "FAN_GATE"
-		(shape input)
-		(at 154.94 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d7f3f185-1af5-4ed8-9559-fff5d0491b31")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1706,6 +1897,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1e7cf04-2a98-4a53-a26d-c25528f46c7f")
 		)
@@ -1716,6 +1940,119 @@
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c0bff91-8620-4da9-bc9e-ee95619e5058")
+		(property "Reference" "R28"
+			(at 133.35 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 133.35 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 105.918 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C14675"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "053fb199-c347-4983-bfbf-d3eb70f68ed9")
+		)
+		(pin "2"
+			(uuid "d34acfdd-bd23-4d39-bfb8-b4648525d713")
+		)
+		(instances
+			(project "cryobelt"
+				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -1801,87 +2138,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 92.71 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "231776fe-e1b0-4613-b6a4-dae4f4c144d9")
-		(property "Reference" "R28"
-			(at 167.64 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 167.64 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 166.878 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 165.1 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4cfda768-55df-43f1-8d98-b3372db20df1")
-		)
-		(pin "1"
-			(uuid "bb00af31-6cc0-4ba0-8c9c-dc4ad8579290")
-		)
-		(instances
-			(project "cryobelt"
-				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 80.01 82.55 90)
 		(unit 1)
 		(body_style 1)
@@ -1945,6 +2201,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "FOJAN"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRM121WFR050TM"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C7467249"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2bef5ee-0fca-493e-91f5-2c54f9f3b3bf")
 		)
@@ -1955,6 +2244,120 @@
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28d6ccd1-211f-4ee7-af68-85235eaa10ac")
+		(property "Reference" "R27"
+			(at 140.97 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 140.97 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 140.208 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20cbb577-a5a5-45ed-ade7-bf44fbfe1be1")
+		)
+		(pin "1"
+			(uuid "99bd64cc-6611-411f-9048-16b5c598d686")
+		)
+		(instances
+			(project "cryobelt"
+				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2039,8 +2442,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 172.72 88.9 0)
+		(lib_id "power:+12V")
+		(at 149.86 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2049,44 +2452,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f861533-1f27-4a91-bd3f-40b8a0ee827d")
-		(property "Reference" "Q4"
-			(at 179.07 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 179.07 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 177.8 90.805 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 177.8 92.71 0)
+		(uuid "2e5b0f74-b9fe-4469-bd61-9a295e349b3b")
+		(property "Reference" "#PWR093"
+			(at 149.86 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2094,11 +2462,42 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 172.72 88.9 0)
+		(property "Value" "+12V_FAN"
+			(at 149.86 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 149.86 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2109,18 +2508,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4476b751-ce53-45e2-9aa4-8593b35ab80f")
-		)
-		(pin "2"
-			(uuid "f48c6c89-8b9b-4b5e-b507-acab566d6892")
-		)
-		(pin "3"
-			(uuid "83a32c0c-d916-47e7-9397-7926e91b15a6")
+			(uuid "8b7b2933-89fd-4602-b577-c85907459316")
 		)
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
-					(reference "Q4")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -2285,88 +2678,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 147.32 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3370bd77-1de2-479b-b3d5-627919b59002")
-		(property "Reference" "J4"
-			(at 149.86 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fan"
-			(at 149.86 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
-			(at 147.32 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 147.32 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22c71b9f-d51b-4eda-95ff-6b16c373e024")
-		)
-		(pin "2"
-			(uuid "38fe5e59-4fb5-450a-a928-a9a9f4d3f2f1")
-		)
-		(instances
-			(project "cryobelt"
-				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 80.01 118.11 0)
 		(unit 1)
@@ -2445,6 +2756,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 149.86 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45d1b773-2aaa-4f0e-a1a5-9f5927f25739")
+		(property "Reference" "#PWR094"
+			(at 149.86 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe535947-6b16-43b8-8642-f8ee088ffeef")
+		)
+		(instances
+			(project "cryobelt"
+				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 109.22 86.36 0)
 		(unit 1)
@@ -2502,6 +2891,39 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 109.22 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRT188R61E106ME13D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C697423"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2593,6 +3015,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f12c38b-32fc-46e9-bffa-88c4573e6b3d")
 		)
@@ -2603,6 +3058,125 @@
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 138.43 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71494bba-be58-49a8-a206-89df3f4a80a0")
+		(property "Reference" "Q4"
+			(at 138.43 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 138.43 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 136.525 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 134.62 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 138.43 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2N7002-G"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C616191"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "467d8acf-235e-4253-a316-30b191fcb07e")
+		)
+		(pin "2"
+			(uuid "3e0e59d1-5780-46a2-bb33-3541fc68e2dd")
+		)
+		(pin "1"
+			(uuid "4dada52f-1f56-41e4-8331-f1a5b0214614")
+		)
+		(instances
+			(project "cryobelt"
+				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -2620,7 +3194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "731d130c-a22f-46c1-a39a-a36dd0f949fa")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR090"
 			(at 109.22 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2680,15 +3254,16 @@
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
-					(reference "#PWR089")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 175.26 93.98 0)
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 161.29 111.76 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2697,30 +3272,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "73cbd098-fdeb-475f-97b5-8b87c7f02580")
-		(property "Reference" "#PWR091"
-			(at 175.26 100.33 0)
-			(hide yes)
+		(uuid "8b4393ae-9a82-4309-a0ff-28c72f374ea4")
+		(property "Reference" "J4"
+			(at 162.56 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 175.26 99.06 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 162.56 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 175.26 93.98 0)
+		(property "Footprint" "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal"
+			(at 161.29 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2731,7 +3307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 93.98 0)
+			(at 161.29 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,8 +3317,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 93.98 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 161.29 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2751,14 +3327,53 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SM03B-GHS-TB(LF)(SN)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C514175"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "85a01660-0c69-4282-9363-54cfdb327acc")
 		)
 		(pin "1"
-			(uuid "c9d37e87-e3d7-4476-8f72-18d17aa9e1d8")
+			(uuid "33053bf4-196d-4fbb-a502-c6a8747a527b")
+		)
+		(pin "3"
+			(uuid "7468687e-06cb-4a31-8e1d-7bcdfa6b79be")
 		)
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
-					(reference "#PWR091")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2829,6 +3444,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "INA180A3IDBVR"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C122882"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "6afc58ff-8429-4cde-adf4-f685a69c64e8")
 		)
@@ -2854,8 +3502,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 96.52 0)
+		(lib_id "power:PWR_FLAG")
+		(at 97.79 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2864,9 +3512,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a36fa1af-50d4-4ff1-b062-f9acad66b15c")
-		(property "Reference" "#PWR090"
-			(at 165.1 102.87 0)
+		(uuid "98202c8d-c84a-44e6-ae94-a1e17c603f76")
+		(property "Reference" "#FLG06"
+			(at 97.79 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2876,8 +3524,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 165.1 101.6 0)
+		(property "Value" "PWR_FLAG"
+			(at 97.79 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2887,7 +3535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 96.52 0)
+			(at 97.79 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2898,7 +3546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 96.52 0)
+			(at 97.79 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2908,8 +3556,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 96.52 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 97.79 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2920,12 +3568,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "282b1420-ccec-4ead-92ff-6ee220968c7f")
+			(uuid "7ebe80c2-c228-44ac-9cf1-8bdebadaef24")
 		)
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
-					(reference "#PWR090")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -2989,6 +3637,39 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 97.79 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R61E105KA12D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C77046"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3092,6 +3773,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 129.54 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6c4e40c-e533-4848-a5cf-f951332cf6d6")
+		(property "Reference" "#PWR095"
+			(at 129.54 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "462b9e15-1c2f-4b1b-b351-a36ce768655e")
+		)
+		(instances
+			(project "cryobelt"
+				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 80.01 106.68 180)
 		(unit 1)
@@ -3157,6 +3916,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22548"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "27ac1754-a8bd-4c08-9afe-922384804f8b")
 		)
@@ -3173,9 +3965,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 160.02 88.9 90)
-		(mirror x)
+		(lib_id "power:+12V")
+		(at 109.22 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3183,9 +3974,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fcd3720a-37a6-43d5-8614-ac7159a7edc1")
-		(property "Reference" "R27"
-			(at 160.02 95.25 90)
+		(fields_autoplaced yes)
+		(uuid "ec1d3d71-f8f3-41a6-a353-f187e575ec9b")
+		(property "Reference" "#PWR089"
+			(at 109.22 86.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3194,8 +3987,8 @@
 				)
 			)
 		)
-		(property "Value" "100R"
-			(at 160.02 92.71 90)
+		(property "Value" "+12V_FAN"
+			(at 109.22 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3204,8 +3997,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 87.122 90)
+		(property "Footprint" ""
+			(at 109.22 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3216,7 +4009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 88.9 0)
+			(at 109.22 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3226,8 +4019,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 160.02 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 109.22 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3236,17 +4029,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "1178402f-6448-44c1-83b7-d27c6b01d45e")
 		)
 		(pin "1"
-			(uuid "0074b289-a47f-47b4-8719-b548617d2a4e")
+			(uuid "a3e42879-0c8d-428f-8012-a1cda037979e")
 		)
 		(instances
 			(project "cryobelt"
 				(path "/8888d943-d12c-4f99-a4ba-a016e272f484/ab28a137-5ca4-49ec-83fd-1c9558542ea3"
-					(reference "R27")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)

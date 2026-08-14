@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Cryobelt")(type "KiCad")(uri "${KIPRJMOD}/libraries/Cryobelt.pretty")(options "")(descr "Cryobelt project-local footprints"))
+)
+

@@ -1,2 +1,4 @@
 .history/ 
 cryobelt-backups/ 
+tmp/
+~*.lck

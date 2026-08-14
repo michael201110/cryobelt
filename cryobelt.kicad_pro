@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1016,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
           "min_thickness": 0.0254,
           "pad_connection": 1,
@@ -511,7 +511,7 @@
       {
         "bus_width": 12,
         "clearance": 0.1016,
-        "diff_pair_gap": 0.1016,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1016,
         "line_style": 0,
@@ -521,7 +521,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1016,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
@@ -538,7 +538,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.25,
+        "track_width": 0.5,
         "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
@@ -547,7 +547,7 @@
       {
         "bus_width": 12,
         "clearance": 0.1016,
-        "diff_pair_gap": 0.1016,
+        "diff_pair_gap": 0.1,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -604,6 +604,42 @@
       {
         "netclass": "PWR",
         "pattern": "/Fan Control/FAN-"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "/ESP32-S3/USB_PHY_D(+|-)"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "/ESP32-S3/D+"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "/ESP32-S3/D-"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "/ESP32-S3/USB_PHY_D-"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "/ESP32-S3/USB_PHY_D+"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+12V_FAN"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Power/PMID"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Power/12V_SW"
       }
     ]
   },
@@ -773,7 +809,7 @@
         "uuid": "8888d943-d12c-4f99-a4ba-a016e272f484"
       }
     ],
-    "used_designators": "L1-3,D1-5,#PWR1-91,C1-33,H1-4,R1-28,J1-4,Q1-4,SW1-5,TH1,TP1-4,U1-9",
+    "used_designators": "#FLG6",
     "variants": []
   },
   "sheets": [
