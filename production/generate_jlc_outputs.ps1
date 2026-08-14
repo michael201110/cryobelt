@@ -7,6 +7,8 @@ $sourcePath = Join-Path $PSScriptRoot 'jlcpcb_sourcing.csv'
 $schematicPath = Join-Path $ProjectRoot 'cryobelt.kicad_sch'
 $pcbPath = Join-Path $ProjectRoot 'cryobelt.kicad_pcb'
 $bomPath = Join-Path $PSScriptRoot 'jlcpcb_bom.csv'
+$legacyBomPath = Join-Path $PSScriptRoot 'bom.csv'
+$rootBomPath = Join-Path $ProjectRoot 'cryobelt.csv'
 $cplPath = Join-Path $PSScriptRoot 'jlcpcb_cpl.csv'
 $rawPosPath = Join-Path ([System.IO.Path]::GetTempPath()) 'cryobelt_jlc_pos.csv'
 $rawNetlistPath = Join-Path ([System.IO.Path]::GetTempPath()) 'cryobelt_jlc_netlist.xml'
@@ -63,6 +65,10 @@ $bom = foreach ($row in $assembled) {
     }
 }
 $bom | Export-Csv -NoTypeInformation -Encoding utf8 $bomPath
+$bom | Export-Csv -NoTypeInformation -Encoding utf8 $legacyBomPath
+
+& $kicadCli sch export bom --output $rootBomPath --fields 'Reference,Value,Footprint,QUANTITY,DNP' --labels 'Refs,Value,Footprint,Qty,DNP' $schematicPath | Out-Host
+if ($LASTEXITCODE -ne 0) { throw "kicad-cli root BOM export failed with exit code $LASTEXITCODE." }
 
 & $kicadCli pcb export pos --format csv --units mm --side both --output $rawPosPath $pcbPath | Out-Host
 if ($LASTEXITCODE -ne 0) { throw "kicad-cli position export failed with exit code $LASTEXITCODE." }
@@ -107,6 +113,8 @@ if ($missing.Count -or $unexpected.Count) {
 Write-Host "Generated $($bom.Count) BOM rows and $($cpl.Count) CPL rows."
 Write-Host "Validated $($allRefs.Count) unique source references."
 Write-Host "BOM: $bomPath"
+Write-Host "Legacy BOM: $legacyBomPath"
+Write-Host "Root BOM: $rootBomPath"
 Write-Host "CPL: $cplPath"
 
 $unresolved = @($source | Where-Object { $_.Status -notin @('READY', 'EXCLUDED') })

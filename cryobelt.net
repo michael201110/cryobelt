@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\ASUS\\Documents\\GitHub\\cryobelt\\cryobelt.kicad_sch")
-		(date "2026-08-14T13:18:55")
+		(date "2026-08-14T17:31:05")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -1064,23 +1064,23 @@
 		)
 		(comp
 			(ref "D1")
-			(value "SK6805")
-			(footprint "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm")
-			(datasheet "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
-			(description "RGB LED with integrated controller")
+			(value "WS2812B-2427-V6")
+			(footprint "Cryobelt:WS2812B-2427-V6_Rotated180")
+			(datasheet "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf")
+			(description "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution")
 			(fields
 				(field
-					(name "Manufacturer") "OPSCO Optoelectronics")
+					(name "Manufacturer") "Worldsemi")
 				(field
-					(name "MPN") "SK6805MICRO-J")
+					(name "MPN") "WS2812B-2427-V6")
 				(field
-					(name "LCSC Part #") "C2909056")
+					(name "LCSC Part #") "C52941389")
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm")
+					(name "Footprint") "Cryobelt:WS2812B-2427-V6_Rotated180")
 				(field
-					(name "Datasheet") "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
+					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf")
 				(field
-					(name "Description") "RGB LED with integrated controller")
+					(name "Description") "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution")
 			)
 			(libsource
 				(lib "LED")
@@ -1089,15 +1089,15 @@
 			)
 			(property
 				(name "Manufacturer")
-				(value "OPSCO Optoelectronics")
+				(value "Worldsemi")
 			)
 			(property
 				(name "MPN")
-				(value "SK6805MICRO-J")
+				(value "WS2812B-2427-V6")
 			)
 			(property
 				(name "LCSC Part #")
-				(value "C2909056")
+				(value "C52941389")
 			)
 			(property
 				(name "Sheetname")
@@ -1142,23 +1142,23 @@
 		)
 		(comp
 			(ref "D2")
-			(value "SK6805")
-			(footprint "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm")
-			(datasheet "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
-			(description "RGB LED with integrated controller")
+			(value "WS2812B-2427-V6")
+			(footprint "Cryobelt:WS2812B-2427-V6_Rotated180")
+			(datasheet "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf")
+			(description "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution")
 			(fields
 				(field
-					(name "Manufacturer") "OPSCO Optoelectronics")
+					(name "Manufacturer") "Worldsemi")
 				(field
-					(name "MPN") "SK6805MICRO-J")
+					(name "MPN") "WS2812B-2427-V6")
 				(field
-					(name "LCSC Part #") "C2909056")
+					(name "LCSC Part #") "C52941389")
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm")
+					(name "Footprint") "Cryobelt:WS2812B-2427-V6_Rotated180")
 				(field
-					(name "Datasheet") "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
+					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf")
 				(field
-					(name "Description") "RGB LED with integrated controller")
+					(name "Description") "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution")
 			)
 			(libsource
 				(lib "LED")
@@ -1167,15 +1167,15 @@
 			)
 			(property
 				(name "Manufacturer")
-				(value "OPSCO Optoelectronics")
+				(value "Worldsemi")
 			)
 			(property
 				(name "MPN")
-				(value "SK6805MICRO-J")
+				(value "WS2812B-2427-V6")
 			)
 			(property
 				(name "LCSC Part #")
-				(value "C2909056")
+				(value "C52941389")
 			)
 			(property
 				(name "Sheetname")
@@ -1220,23 +1220,23 @@
 		)
 		(comp
 			(ref "D3")
-			(value "SK6805")
-			(footprint "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm")
-			(datasheet "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
-			(description "RGB LED with integrated controller")
+			(value "WS2812B-2427-V6")
+			(footprint "Cryobelt:WS2812B-2427-V6_Rotated180")
+			(datasheet "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf")
+			(description "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution")
 			(fields
 				(field
-					(name "Manufacturer") "OPSCO Optoelectronics")
+					(name "Manufacturer") "Worldsemi")
 				(field
-					(name "MPN") "SK6805MICRO-J")
+					(name "MPN") "WS2812B-2427-V6")
 				(field
-					(name "LCSC Part #") "C2909056")
+					(name "LCSC Part #") "C52941389")
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm")
+					(name "Footprint") "Cryobelt:WS2812B-2427-V6_Rotated180")
 				(field
-					(name "Datasheet") "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
+					(name "Datasheet") "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf")
 				(field
-					(name "Description") "RGB LED with integrated controller")
+					(name "Description") "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution")
 			)
 			(libsource
 				(lib "LED")
@@ -1245,15 +1245,15 @@
 			)
 			(property
 				(name "Manufacturer")
-				(value "OPSCO Optoelectronics")
+				(value "Worldsemi")
 			)
 			(property
 				(name "MPN")
-				(value "SK6805MICRO-J")
+				(value "WS2812B-2427-V6")
 			)
 			(property
 				(name "LCSC Part #")
-				(value "C2909056")
+				(value "C52941389")
 			)
 			(property
 				(name "Sheetname")
@@ -1856,23 +1856,23 @@
 		)
 		(comp
 			(ref "R8")
-			(value "715k")
+			(value "634k")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(description "Resistor")
+			(datasheet "https://www.lcsc.com/product-detail/C273753.html")
+			(description "634 kOhm 1% SD_MODE pull-up for summed-mono selection at 3.3 V")
 			(fields
 				(field
 					(name "Manufacturer") "YAGEO")
 				(field
-					(name "MPN") "RC0603FR-07715KL")
+					(name "MPN") "RC0603FR-07634KL")
 				(field
-					(name "LCSC Part #") "C137685")
+					(name "LCSC Part #") "C273753")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C273753.html")
 				(field
-					(name "Description") "Resistor")
+					(name "Description") "634 kOhm 1% SD_MODE pull-up for summed-mono selection at 3.3 V")
 			)
 			(libsource
 				(lib "Device")
@@ -1885,11 +1885,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0603FR-07715KL")
+				(value "RC0603FR-07634KL")
 			)
 			(property
 				(name "LCSC Part #")
-				(value "C137685")
+				(value "C273753")
 			)
 			(property
 				(name "Sheetname")
@@ -3606,23 +3606,23 @@
 		)
 		(comp
 			(ref "C23")
-			(value "4.7nF")
+			(value "47nF")
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
-			(description "Unpolarized capacitor")
+			(datasheet "https://www.lcsc.com/product-detail/C53084515.html")
+			(description "47 nF 50 V X7R bootstrap capacitor")
 			(fields
 				(field
-					(name "Manufacturer") "YAGEO")
+					(name "Manufacturer") "TORCH")
 				(field
-					(name "MPN") "CC0603KRX7R9BB472")
+					(name "MPN") "CC0603X7R50V473KN")
 				(field
-					(name "LCSC Part #") "C106218")
+					(name "LCSC Part #") "C53084515")
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C53084515.html")
 				(field
-					(name "Description") "Unpolarized capacitor")
+					(name "Description") "47 nF 50 V X7R bootstrap capacitor")
 			)
 			(libsource
 				(lib "Device")
@@ -3631,15 +3631,15 @@
 			)
 			(property
 				(name "Manufacturer")
-				(value "YAGEO")
+				(value "TORCH")
 			)
 			(property
 				(name "MPN")
-				(value "CC0603KRX7R9BB472")
+				(value "CC0603X7R50V473KN")
 			)
 			(property
 				(name "LCSC Part #")
-				(value "C106218")
+				(value "C53084515")
 			)
 			(property
 				(name "Sheetname")

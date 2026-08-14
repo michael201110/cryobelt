@@ -726,7 +726,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "47nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ec0afdeb-26fe-48f9-a4b6-c279c96e520a")
@@ -737,7 +737,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C53084515.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -748,7 +748,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "47 nF 50 V X7R bootstrap capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -759,7 +759,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TORCH"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -772,7 +772,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB472"
+		(property "MPN" "CC0603X7R50V473KN"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -785,7 +785,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C106218"
+		(property "LCSC Part #" "C53084515"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16332,7 +16332,7 @@
 				)
 			)
 		)
-		(property "Value" "715k"
+		(property "Value" "634k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "af58e1c9-ba72-4207-8c9f-f3b99d6c4871")
@@ -16343,7 +16343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C273753.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16354,7 +16354,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "634 kOhm 1% SD_MODE pull-up for summed-mono selection at 3.3 V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16378,7 +16378,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07715KL"
+		(property "MPN" "RC0603FR-07634KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16391,7 +16391,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137685"
+		(property "LCSC Part #" "C273753"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

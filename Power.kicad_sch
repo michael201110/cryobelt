@@ -13631,7 +13631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "47nF"
 			(at 238.252 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13653,7 +13653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C53084515.html"
 			(at 234.95 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13664,7 +13664,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "47 nF 50 V X7R bootstrap capacitor"
 			(at 234.95 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13675,7 +13675,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "TORCH"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13686,7 +13686,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB472"
+		(property "MPN" "CC0603X7R50V473KN"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13697,7 +13697,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C106218"
+		(property "LCSC Part #" "C53084515"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
