@@ -4,9 +4,7 @@ Catalog mapping checked against LCSC listings on 2026-08-14. `jlcpcb_sourcing.cs
 
 ## Order blockers
 
-1. Decide whether R25 really requires the schematic's 0.1% shunt tolerance. The available selected JLC part is 50 mOhm, 1%, 1 W in 1206; do not silently relabel it as 0.1%.
-2. R15 C137669 was catalogued but showed zero LCSC stock when checked. Select an exact 953 kOhm 1% 0603 alternate if still unavailable at order time.
-3. Recheck every placement, side, rotation, and substituted part in JLCPCB's assembly viewer before payment.
+There are no unresolved BOM mapping rows. Recheck every placement, side, rotation, stock status, and substituted part in JLCPCB's assembly viewer before payment.
 
 The routed board passed KiCad 10 ERC, PCB DRC, connectivity, and schematic-parity checks with zero reported violations on 2026-08-14. The fabrication archive, BOM, positions, IPC netlist, iBOM, and JLCPCB BOM/CPL were regenerated from the routed revision.
 

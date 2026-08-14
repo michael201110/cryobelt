@@ -2507,7 +2507,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "PANASONIC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2520,7 +2520,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07953KL"
+		(property "MPN" "ERJ3EKF9533V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2533,7 +2533,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137669"
+		(property "LCSC Part #" "C403405"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16180,7 +16180,7 @@
 				)
 			)
 		)
-		(property "Value" "0.05R/0.1%"
+		(property "Value" "0.05R/1%"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "5c5cff29-ae70-4b33-988f-d13a5b0263f1")

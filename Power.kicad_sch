@@ -7850,7 +7850,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "PANASONIC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7861,7 +7861,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07953KL"
+		(property "MPN" "ERJ3EKF9533V"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7872,7 +7872,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137669"
+		(property "LCSC Part #" "C403405"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

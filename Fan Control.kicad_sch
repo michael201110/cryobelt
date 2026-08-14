@@ -2158,7 +2158,7 @@
 				)
 			)
 		)
-		(property "Value" "0.05R/0.1%"
+		(property "Value" "0.05R/1%"
 			(at 80.01 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)

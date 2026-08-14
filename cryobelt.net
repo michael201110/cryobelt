@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\ASUS\\Documents\\GitHub\\cryobelt\\cryobelt.kicad_sch")
-		(date "2026-08-13T21:58:39")
+		(date "2026-08-14T13:18:55")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -421,6 +421,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A105KA61D")
+				(field
+					(name "LCSC Part #") "C86012")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -432,6 +438,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A105KA61D")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C86012")
 			)
 			(property
 				(name "Sheetname")
@@ -475,6 +493,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "CC0402KRX7R7BB104")
+				(field
+					(name "LCSC Part #") "C60474")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -486,6 +510,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "CC0402KRX7R7BB104")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C60474")
 			)
 			(property
 				(name "Sheetname")
@@ -529,6 +565,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A105KA61D")
+				(field
+					(name "LCSC Part #") "C86012")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -540,6 +582,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A105KA61D")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C86012")
 			)
 			(property
 				(name "Sheetname")
@@ -583,6 +637,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "CC0402KRX7R7BB104")
+				(field
+					(name "LCSC Part #") "C60474")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -594,6 +654,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "CC0402KRX7R7BB104")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C60474")
 			)
 			(property
 				(name "Sheetname")
@@ -637,6 +709,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "CC0402KRX7R7BB104")
+				(field
+					(name "LCSC Part #") "C60474")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
 				(field
 					(name "Datasheet")
@@ -648,6 +726,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "CC0402KRX7R7BB104")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C60474")
 			)
 			(property
 				(name "Sheetname")
@@ -691,6 +781,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A106KAALD")
+				(field
+					(name "LCSC Part #") "C703114")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -702,6 +798,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A106KAALD")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C703114")
 			)
 			(property
 				(name "Sheetname")
@@ -745,6 +853,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A105KA61D")
+				(field
+					(name "LCSC Part #") "C86012")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -756,6 +870,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A105KA61D")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C86012")
 			)
 			(property
 				(name "Sheetname")
@@ -799,6 +925,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A106KAALD")
+				(field
+					(name "LCSC Part #") "C703114")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -810,6 +942,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A106KAALD")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C703114")
 			)
 			(property
 				(name "Sheetname")
@@ -853,6 +997,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "CC0603KRX7R9BB104")
+				(field
+					(name "LCSC Part #") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -864,6 +1014,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "CC0603KRX7R9BB104")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -908,6 +1070,12 @@
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
+					(name "Manufacturer") "OPSCO Optoelectronics")
+				(field
+					(name "MPN") "SK6805MICRO-J")
+				(field
+					(name "LCSC Part #") "C2909056")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm")
 				(field
 					(name "Datasheet") "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
@@ -918,6 +1086,18 @@
 				(lib "LED")
 				(part "SK6805")
 				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Manufacturer")
+				(value "OPSCO Optoelectronics")
+			)
+			(property
+				(name "MPN")
+				(value "SK6805MICRO-J")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C2909056")
 			)
 			(property
 				(name "Sheetname")
@@ -968,6 +1148,12 @@
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
+					(name "Manufacturer") "OPSCO Optoelectronics")
+				(field
+					(name "MPN") "SK6805MICRO-J")
+				(field
+					(name "LCSC Part #") "C2909056")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm")
 				(field
 					(name "Datasheet") "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
@@ -978,6 +1164,18 @@
 				(lib "LED")
 				(part "SK6805")
 				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Manufacturer")
+				(value "OPSCO Optoelectronics")
+			)
+			(property
+				(name "MPN")
+				(value "SK6805MICRO-J")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C2909056")
 			)
 			(property
 				(name "Sheetname")
@@ -1028,6 +1226,12 @@
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
+					(name "Manufacturer") "OPSCO Optoelectronics")
+				(field
+					(name "MPN") "SK6805MICRO-J")
+				(field
+					(name "LCSC Part #") "C2909056")
+				(field
 					(name "Footprint") "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm")
 				(field
 					(name "Datasheet") "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
@@ -1038,6 +1242,18 @@
 				(lib "LED")
 				(part "SK6805")
 				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Manufacturer")
+				(value "OPSCO Optoelectronics")
+			)
+			(property
+				(name "MPN")
+				(value "SK6805MICRO-J")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C2909056")
 			)
 			(property
 				(name "Sheetname")
@@ -1083,11 +1299,11 @@
 		(comp
 			(ref "J1")
 			(value "Speaker")
-			(footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm")
+			(footprint "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm")
 			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm")
+					(name "Footprint") "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1141,6 +1357,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-0710KL")
+				(field
+					(name "LCSC Part #") "C98220")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1152,6 +1374,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0710KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C98220")
 			)
 			(property
 				(name "Sheetname")
@@ -1195,6 +1429,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-0710KL")
+				(field
+					(name "LCSC Part #") "C98220")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1206,6 +1446,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0710KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C98220")
 			)
 			(property
 				(name "Sheetname")
@@ -1249,6 +1501,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "MPN") "0603WAF2201T5E")
+				(field
+					(name "LCSC Part #") "C4190")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1260,6 +1518,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF2201T5E")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C4190")
 			)
 			(property
 				(name "Sheetname")
@@ -1303,6 +1573,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "MPN") "0603WAF2201T5E")
+				(field
+					(name "LCSC Part #") "C4190")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1314,6 +1590,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF2201T5E")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C4190")
 			)
 			(property
 				(name "Sheetname")
@@ -1352,119 +1640,17 @@
 		)
 		(comp
 			(ref "R5")
-			(value "22R")
-			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "ESP32-S3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "ESP32-S3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/ESP32-S3/")
-				(tstamps "/b99f980d-9887-47c3-8fb8-9c3e900909e8/")
-			)
-			(tstamps "49aeac96-4a7f-433c-b39c-13741274d2cf")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R6")
-			(value "22R")
-			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "ESP32-S3")
-			)
-			(property
-				(name "Sheetfile")
-				(value "ESP32-S3.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/ESP32-S3/")
-				(tstamps "/b99f980d-9887-47c3-8fb8-9c3e900909e8/")
-			)
-			(tstamps "8f56d81d-df18-49f4-a34b-267f9144bd84")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R7")
 			(value "100R")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "MPN") "0603WAF1000T5E")
+				(field
+					(name "LCSC Part #") "C22775")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1476,6 +1662,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF1000T5E")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C22775")
 			)
 			(property
 				(name "Sheetname")
@@ -1513,11 +1711,17 @@
 			)
 		)
 		(comp
-			(ref "R8")
-			(value "715k")
+			(ref "R6")
+			(value "22R")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Resistor")
 			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "MPN") "0603WAF220JT5E")
+				(field
+					(name "LCSC Part #") "C23345")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
@@ -1530,6 +1734,162 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF220JT5E")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C23345")
+			)
+			(property
+				(name "Sheetname")
+				(value "ESP32-S3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-S3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/ESP32-S3/")
+				(tstamps "/b99f980d-9887-47c3-8fb8-9c3e900909e8/")
+			)
+			(tstamps "49aeac96-4a7f-433c-b39c-13741274d2cf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "22R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "MPN") "0603WAF220JT5E")
+				(field
+					(name "LCSC Part #") "C23345")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF220JT5E")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C23345")
+			)
+			(property
+				(name "Sheetname")
+				(value "ESP32-S3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-S3.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/ESP32-S3/")
+				(tstamps "/b99f980d-9887-47c3-8fb8-9c3e900909e8/")
+			)
+			(tstamps "8f56d81d-df18-49f4-a34b-267f9144bd84")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "715k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-07715KL")
+				(field
+					(name "LCSC Part #") "C137685")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07715KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C137685")
 			)
 			(property
 				(name "Sheetname")
@@ -1573,6 +1933,12 @@
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
+					(name "Manufacturer") "Omron")
+				(field
+					(name "MPN") "B3FS-1000P")
+				(field
+					(name "LCSC Part #") "C271750")
+				(field
 					(name "Footprint") "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP")
 				(field
 					(name "Datasheet")
@@ -1584,6 +1950,18 @@
 				(lib "Switch")
 				(part "SW_Push")
 				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Omron")
+			)
+			(property
+				(name "MPN")
+				(value "B3FS-1000P")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C271750")
 			)
 			(property
 				(name "Sheetname")
@@ -1623,6 +2001,12 @@
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
+					(name "Manufacturer") "Omron")
+				(field
+					(name "MPN") "B3FS-1000P")
+				(field
+					(name "LCSC Part #") "C271750")
+				(field
 					(name "Footprint") "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP")
 				(field
 					(name "Datasheet")
@@ -1634,6 +2018,18 @@
 				(lib "Switch")
 				(part "SW_Push")
 				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Omron")
+			)
+			(property
+				(name "MPN")
+				(value "B3FS-1000P")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C271750")
 			)
 			(property
 				(name "Sheetname")
@@ -1824,6 +2220,12 @@
 			(description "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4")
 			(fields
 				(field
+					(name "Manufacturer") "Sensirion")
+				(field
+					(name "MPN") "SHT40-AD1B-R2")
+				(field
+					(name "LCSC Part #") "C2909890")
+				(field
 					(name "Footprint") "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad")
 				(field
 					(name "Datasheet") "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf")
@@ -1834,6 +2236,18 @@
 				(lib "Sensor_Humidity")
 				(part "SHT4x")
 				(description "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Sensirion")
+			)
+			(property
+				(name "MPN")
+				(value "SHT40-AD1B-R2")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C2909890")
 			)
 			(property
 				(name "Sheetname")
@@ -1884,6 +2298,12 @@
 			(description "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna")
 			(fields
 				(field
+					(name "Manufacturer") "Espressif Systems")
+				(field
+					(name "MPN") "ESP32-S3-MINI-1-N8")
+				(field
+					(name "LCSC Part #") "C2913206")
+				(field
 					(name "Footprint") "Cryobelt:ESP32-S3-MINI-1")
 				(field
 					(name "Datasheet") "https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf")
@@ -1894,6 +2314,18 @@
 				(lib "Cryobelt_ESP32")
 				(part "ESP32-S3-MINI-1")
 				(description "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Espressif Systems")
+			)
+			(property
+				(name "MPN")
+				(value "ESP32-S3-MINI-1-N8")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C2913206")
 			)
 			(property
 				(name "Sheetname")
@@ -2127,6 +2559,12 @@
 			(description "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16")
 			(fields
 				(field
+					(name "Manufacturer") "Analog Devices / Maxim")
+				(field
+					(name "MPN") "MAX98357AETE+T")
+				(field
+					(name "LCSC Part #") "C910544")
+				(field
 					(name "Footprint") "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm")
 				(field
 					(name "Datasheet") "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf")
@@ -2137,6 +2575,18 @@
 				(lib "Cryobelt_Audio")
 				(part "MAX98357A")
 				(description "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Analog Devices / Maxim")
+			)
+			(property
+				(name "MPN")
+				(value "MAX98357AETE+T")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C910544")
 			)
 			(property
 				(name "Sheetname")
@@ -2221,11 +2671,17 @@
 		(comp
 			(ref "C10")
 			(value "22uF")
-			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+					(name "Manufacturer") "CCTC")
+				(field
+					(name "MPN") "TCC0805X5R226M250FT")
+				(field
+					(name "LCSC Part #") "C20416420")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2236,6 +2692,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "CCTC")
+			)
+			(property
+				(name "MPN")
+				(value "TCC0805X5R226M250FT")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C20416420")
 			)
 			(property
 				(name "Sheetname")
@@ -2275,11 +2743,17 @@
 		(comp
 			(ref "C11")
 			(value "22uF")
-			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+					(name "Manufacturer") "CCTC")
+				(field
+					(name "MPN") "TCC0805X5R226M250FT")
+				(field
+					(name "LCSC Part #") "C20416420")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2290,6 +2764,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "CCTC")
+			)
+			(property
+				(name "MPN")
+				(value "TCC0805X5R226M250FT")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C20416420")
 			)
 			(property
 				(name "Sheetname")
@@ -2333,6 +2819,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "CC0603KRX7R9BB104")
+				(field
+					(name "LCSC Part #") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2344,6 +2836,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "CC0603KRX7R9BB104")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -2383,11 +2887,17 @@
 		(comp
 			(ref "C13")
 			(value "22uF")
-			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+					(name "Manufacturer") "CCTC")
+				(field
+					(name "MPN") "TCC0805X5R226M250FT")
+				(field
+					(name "LCSC Part #") "C20416420")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2398,6 +2908,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "CCTC")
+			)
+			(property
+				(name "MPN")
+				(value "TCC0805X5R226M250FT")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C20416420")
 			)
 			(property
 				(name "Sheetname")
@@ -2441,6 +2963,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Samsung Electro-Mechanics")
+				(field
+					(name "MPN") "CL10A226MP8NUNE")
+				(field
+					(name "LCSC Part #") "C86295")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2452,6 +2980,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung Electro-Mechanics")
+			)
+			(property
+				(name "MPN")
+				(value "CL10A226MP8NUNE")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C86295")
 			)
 			(property
 				(name "Sheetname")
@@ -2495,6 +3035,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "CC0603KRX7R9BB104")
+				(field
+					(name "LCSC Part #") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2506,6 +3052,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "CC0603KRX7R9BB104")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -2549,6 +3107,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A106KAALD")
+				(field
+					(name "LCSC Part #") "C703114")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2560,6 +3124,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A106KAALD")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C703114")
 			)
 			(property
 				(name "Sheetname")
@@ -2599,11 +3175,17 @@
 		(comp
 			(ref "C17")
 			(value "22uF")
-			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+					(name "Manufacturer") "CCTC")
+				(field
+					(name "MPN") "TCC0805X5R226M250FT")
+				(field
+					(name "LCSC Part #") "C20416420")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2614,6 +3196,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "CCTC")
+			)
+			(property
+				(name "MPN")
+				(value "TCC0805X5R226M250FT")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C20416420")
 			)
 			(property
 				(name "Sheetname")
@@ -2653,11 +3247,17 @@
 		(comp
 			(ref "C18")
 			(value "22uF")
-			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+					(name "Manufacturer") "CCTC")
+				(field
+					(name "MPN") "TCC0805X5R226M250FT")
+				(field
+					(name "LCSC Part #") "C20416420")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2668,6 +3268,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "CCTC")
+			)
+			(property
+				(name "MPN")
+				(value "TCC0805X5R226M250FT")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C20416420")
 			)
 			(property
 				(name "Sheetname")
@@ -2711,6 +3323,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "CC0603KRX7R9BB472")
+				(field
+					(name "LCSC Part #") "C106218")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2722,6 +3340,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "CC0603KRX7R9BB472")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C106218")
 			)
 			(property
 				(name "Sheetname")
@@ -2765,6 +3395,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A105KA61D")
+				(field
+					(name "LCSC Part #") "C86012")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2776,6 +3412,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A105KA61D")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C86012")
 			)
 			(property
 				(name "Sheetname")
@@ -2819,6 +3467,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A106KAALD")
+				(field
+					(name "LCSC Part #") "C703114")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2830,6 +3484,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A106KAALD")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C703114")
 			)
 			(property
 				(name "Sheetname")
@@ -2873,6 +3539,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "CC0603KRX7R9BB104")
+				(field
+					(name "LCSC Part #") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2884,6 +3556,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "CC0603KRX7R9BB104")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -2927,6 +3611,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "CC0603KRX7R9BB472")
+				(field
+					(name "LCSC Part #") "C106218")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2938,6 +3628,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "CC0603KRX7R9BB472")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C106218")
 			)
 			(property
 				(name "Sheetname")
@@ -2981,6 +3683,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A106KAALD")
+				(field
+					(name "LCSC Part #") "C703114")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2992,6 +3700,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A106KAALD")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C703114")
 			)
 			(property
 				(name "Sheetname")
@@ -3035,6 +3755,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A106KAALD")
+				(field
+					(name "LCSC Part #") "C703114")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -3046,6 +3772,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A106KAALD")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C703114")
 			)
 			(property
 				(name "Sheetname")
@@ -3089,6 +3827,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A106KAALD")
+				(field
+					(name "LCSC Part #") "C703114")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -3100,6 +3844,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A106KAALD")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C703114")
 			)
 			(property
 				(name "Sheetname")
@@ -3143,6 +3899,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A106KAALD")
+				(field
+					(name "LCSC Part #") "C703114")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -3154,6 +3916,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A106KAALD")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C703114")
 			)
 			(property
 				(name "Sheetname")
@@ -3197,6 +3971,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A106KAALD")
+				(field
+					(name "LCSC Part #") "C703114")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -3208,6 +3988,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A106KAALD")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C703114")
 			)
 			(property
 				(name "Sheetname")
@@ -3251,6 +4043,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61A106KAALD")
+				(field
+					(name "LCSC Part #") "C703114")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -3262,6 +4060,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61A106KAALD")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C703114")
 			)
 			(property
 				(name "Sheetname")
@@ -3307,6 +4117,12 @@
 				(field
 					(name "Sim.Pins") "1=K 2=A")
 				(field
+					(name "Manufacturer") "Hubei KENTO Elec")
+				(field
+					(name "MPN") "KT-0603R")
+				(field
+					(name "LCSC Part #") "C2286")
+				(field
 					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -3322,6 +4138,18 @@
 			(property
 				(name "Sim.Pins")
 				(value "1=K 2=A")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Hubei KENTO Elec")
+			)
+			(property
+				(name "MPN")
+				(value "KT-0603R")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C2286")
 			)
 			(property
 				(name "Sheetname")
@@ -3366,6 +4194,12 @@
 			(description "20V 1A Schottky Diode, SMA")
 			(fields
 				(field
+					(name "Manufacturer") "onsemi")
+				(field
+					(name "MPN") "SS12")
+				(field
+					(name "LCSC Part #") "C184027")
+				(field
 					(name "Footprint") "Diode_SMD:D_SMA")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/88746/ss12.pdf")
@@ -3376,6 +4210,18 @@
 				(lib "Diode")
 				(part "SS12")
 				(description "20V 1A Schottky Diode, SMA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "onsemi")
+			)
+			(property
+				(name "MPN")
+				(value "SS12")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C184027")
 			)
 			(property
 				(name "Sheetname")
@@ -3420,6 +4266,12 @@
 			(description "USB 2.0-only 16P Type-C Receptacle connector")
 			(fields
 				(field
+					(name "Manufacturer") "Global Connector Technology")
+				(field
+					(name "MPN") "USB4110-GF-A")
+				(field
+					(name "LCSC Part #") "C5143397")
+				(field
 					(name "Footprint") "Connector_USB:USB_C_Receptacle_GCT_USB4110")
 				(field
 					(name "Datasheet") "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
@@ -3430,6 +4282,18 @@
 				(lib "Connector")
 				(part "USB_C_Receptacle_USB2.0_16P")
 				(description "USB 2.0-only 16P Type-C Receptacle connector")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Global Connector Technology")
+			)
+			(property
+				(name "MPN")
+				(value "USB4110-GF-A")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C5143397")
 			)
 			(property
 				(name "Sheetname")
@@ -3514,11 +4378,17 @@
 		(comp
 			(ref "J3")
 			(value "Battery")
-			(footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm")
+			(footprint "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal")
 			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm")
+					(name "Manufacturer") "JST")
+				(field
+					(name "MPN") "S2B-PH-K-S(LF)(SN)")
+				(field
+					(name "LCSC Part #") "C173752")
+				(field
+					(name "Footprint") "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3529,6 +4399,18 @@
 				(lib "Connector_Generic")
 				(part "Conn_01x02")
 				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "JST")
+			)
+			(property
+				(name "MPN")
+				(value "S2B-PH-K-S(LF)(SN)")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C173752")
 			)
 			(property
 				(name "Sheetname")
@@ -3568,11 +4450,17 @@
 		(comp
 			(ref "L1")
 			(value "2.2uH")
-			(footprint "Inductor_SMD:L_APV_ANR4020")
+			(footprint "Cryobelt:FEXU0420")
 			(description "Inductor")
 			(fields
 				(field
-					(name "Footprint") "Inductor_SMD:L_APV_ANR4020")
+					(name "Manufacturer") "cjiang")
+				(field
+					(name "MPN") "FEXU0420S2R2MBS")
+				(field
+					(name "LCSC Part #") "C54777963")
+				(field
+					(name "Footprint") "Cryobelt:FEXU0420")
 				(field
 					(name "Datasheet")
 				)
@@ -3583,6 +4471,18 @@
 				(lib "Device")
 				(part "L")
 				(description "Inductor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "cjiang")
+			)
+			(property
+				(name "MPN")
+				(value "FEXU0420S2R2MBS")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C54777963")
 			)
 			(property
 				(name "Sheetname")
@@ -3626,6 +4526,12 @@
 			(description "Inductor")
 			(fields
 				(field
+					(name "Manufacturer") "Shun Xiang Nuo")
+				(field
+					(name "MPN") "SMNR4020-2.2UH")
+				(field
+					(name "LCSC Part #") "C135262")
+				(field
 					(name "Footprint") "Inductor_SMD:L_APV_ANR4020")
 				(field
 					(name "Datasheet")
@@ -3637,6 +4543,18 @@
 				(lib "Device")
 				(part "L")
 				(description "Inductor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Shun Xiang Nuo")
+			)
+			(property
+				(name "MPN")
+				(value "SMNR4020-2.2UH")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C135262")
 			)
 			(property
 				(name "Sheetname")
@@ -3676,11 +4594,17 @@
 		(comp
 			(ref "L3")
 			(value "2.2uH")
-			(footprint "Inductor_SMD:L_APV_ANR4020")
+			(footprint "Cryobelt:FEXU0420")
 			(description "Inductor")
 			(fields
 				(field
-					(name "Footprint") "Inductor_SMD:L_APV_ANR4020")
+					(name "Manufacturer") "cjiang")
+				(field
+					(name "MPN") "FEXU0420S2R2MBS")
+				(field
+					(name "LCSC Part #") "C54777963")
+				(field
+					(name "Footprint") "Cryobelt:FEXU0420")
 				(field
 					(name "Datasheet")
 				)
@@ -3691,6 +4615,18 @@
 				(lib "Device")
 				(part "L")
 				(description "Inductor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "cjiang")
+			)
+			(property
+				(name "MPN")
+				(value "FEXU0420S2R2MBS")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C54777963")
 			)
 			(property
 				(name "Sheetname")
@@ -3735,6 +4671,12 @@
 			(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
 			(fields
 				(field
+					(name "Manufacturer") "Alpha & Omega Semiconductor")
+				(field
+					(name "MPN") "AO3401A")
+				(field
+					(name "LCSC Part #") "C15127")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
 					(name "Datasheet") "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf")
@@ -3745,6 +4687,18 @@
 				(lib "Transistor_FET")
 				(part "AO3401A")
 				(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Alpha & Omega Semiconductor")
+			)
+			(property
+				(name "MPN")
+				(value "AO3401A")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C15127")
 			)
 			(property
 				(name "Sheetname")
@@ -3792,6 +4746,12 @@
 			(description "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23")
 			(fields
 				(field
+					(name "Manufacturer") "Alpha & Omega Semiconductor")
+				(field
+					(name "MPN") "AO3400A")
+				(field
+					(name "LCSC Part #") "C20917")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
 					(name "Datasheet") "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf")
@@ -3802,6 +4762,18 @@
 				(lib "Transistor_FET")
 				(part "AO3400A")
 				(description "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Alpha & Omega Semiconductor")
+			)
+			(property
+				(name "MPN")
+				(value "AO3400A")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C20917")
 			)
 			(property
 				(name "Sheetname")
@@ -3849,6 +4821,12 @@
 			(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
 			(fields
 				(field
+					(name "Manufacturer") "Alpha & Omega Semiconductor")
+				(field
+					(name "MPN") "AO3401A")
+				(field
+					(name "LCSC Part #") "C15127")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
 					(name "Datasheet") "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf")
@@ -3859,6 +4837,18 @@
 				(lib "Transistor_FET")
 				(part "AO3401A")
 				(description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Alpha & Omega Semiconductor")
+			)
+			(property
+				(name "MPN")
+				(value "AO3401A")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C15127")
 			)
 			(property
 				(name "Sheetname")
@@ -3905,6 +4895,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-07100KL")
+				(field
+					(name "LCSC Part #") "C14675")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -3916,6 +4912,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07100KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C14675")
 			)
 			(property
 				(name "Sheetname")
@@ -3959,6 +4967,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-07100KL")
+				(field
+					(name "LCSC Part #") "C14675")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -3970,6 +4984,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07100KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C14675")
 			)
 			(property
 				(name "Sheetname")
@@ -4013,6 +5039,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-07301KL")
+				(field
+					(name "LCSC Part #") "C273742")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4024,6 +5056,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07301KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C273742")
 			)
 			(property
 				(name "Sheetname")
@@ -4067,6 +5111,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-07100KL")
+				(field
+					(name "LCSC Part #") "C14675")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4078,6 +5128,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07100KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C14675")
 			)
 			(property
 				(name "Sheetname")
@@ -4121,6 +5183,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-07270KL")
+				(field
+					(name "LCSC Part #") "C137755")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4132,6 +5200,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07270KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C137755")
 			)
 			(property
 				(name "Sheetname")
@@ -4175,6 +5255,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-0717K4L")
+				(field
+					(name "LCSC Part #") "C185365")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4186,6 +5272,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0717K4L")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C185365")
 			)
 			(property
 				(name "Sheetname")
@@ -4229,6 +5327,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "PANASONIC")
+				(field
+					(name "MPN") "ERJ3EKF9533V")
+				(field
+					(name "LCSC Part #") "C403405")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4240,6 +5344,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "PANASONIC")
+			)
+			(property
+				(name "MPN")
+				(value "ERJ3EKF9533V")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C403405")
 			)
 			(property
 				(name "Sheetname")
@@ -4283,6 +5399,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-07107KL")
+				(field
+					(name "LCSC Part #") "C245894")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4294,6 +5416,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07107KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C245894")
 			)
 			(property
 				(name "Sheetname")
@@ -4337,6 +5471,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-0710KL")
+				(field
+					(name "LCSC Part #") "C98220")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4348,6 +5488,18 @@
 				(lib "Cryobelt")
 				(part "Placeholder_Resistor")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0710KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C98220")
 			)
 			(property
 				(name "Sheetname")
@@ -4391,6 +5543,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-07100KL")
+				(field
+					(name "LCSC Part #") "C14675")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4402,6 +5560,18 @@
 				(lib "Cryobelt")
 				(part "Placeholder_Resistor")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07100KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C14675")
 			)
 			(property
 				(name "Sheetname")
@@ -4445,6 +5615,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "MPN") "0603WAF1000T5E")
+				(field
+					(name "LCSC Part #") "C22775")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4456,6 +5632,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF1000T5E")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C22775")
 			)
 			(property
 				(name "Sheetname")
@@ -4499,6 +5687,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "MPN") "0603WAF1000T5E")
+				(field
+					(name "LCSC Part #") "C22775")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4510,6 +5704,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF1000T5E")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C22775")
 			)
 			(property
 				(name "Sheetname")
@@ -4553,6 +5759,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "MPN") "0603WAF2201T5E")
+				(field
+					(name "LCSC Part #") "C4190")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4564,6 +5776,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF2201T5E")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C4190")
 			)
 			(property
 				(name "Sheetname")
@@ -4607,6 +5831,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-0730K1L")
+				(field
+					(name "LCSC Part #") "C137745")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4618,6 +5848,18 @@
 				(lib "Cryobelt")
 				(part "Placeholder_Resistor")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0730K1L")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C137745")
 			)
 			(property
 				(name "Sheetname")
@@ -4661,6 +5903,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-075K23L")
+				(field
+					(name "LCSC Part #") "C185317")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4672,6 +5920,18 @@
 				(lib "Cryobelt")
 				(part "Placeholder_Resistor")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-075K23L")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C185317")
 			)
 			(property
 				(name "Sheetname")
@@ -4715,6 +5975,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-0710KL")
+				(field
+					(name "LCSC Part #") "C98220")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4726,6 +5992,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0710KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C98220")
 			)
 			(property
 				(name "Sheetname")
@@ -4769,6 +6047,12 @@
 			(description "Temperature dependent resistor, negative temperature coefficient")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "NCU18XH103F60RB")
+				(field
+					(name "LCSC Part #") "C440252")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -4780,6 +6064,18 @@
 				(lib "Device")
 				(part "Thermistor_NTC")
 				(description "Temperature dependent resistor, negative temperature coefficient")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "NCU18XH103F60RB")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C440252")
 			)
 			(property
 				(name "Sheetname")
@@ -5028,6 +6324,12 @@
 			(description "USB Type-C port controller with I2C and GPIO control, X2QFN-12")
 			(fields
 				(field
+					(name "Manufacturer") "onsemi")
+				(field
+					(name "MPN") "FUSB303BTMX")
+				(field
+					(name "LCSC Part #") "C895444")
+				(field
 					(name "Footprint") "Package_DFN_QFN:Texas_X2QFN-12_1.6x1.6mm_P0.4mm")
 				(field
 					(name "Datasheet") "https://www.onsemi.com/pdf/datasheet/fusb303b-d.pdf")
@@ -5038,6 +6340,18 @@
 				(lib "Interface_USB")
 				(part "FUSB303BTMX")
 				(description "USB Type-C port controller with I2C and GPIO control, X2QFN-12")
+			)
+			(property
+				(name "Manufacturer")
+				(value "onsemi")
+			)
+			(property
+				(name "MPN")
+				(value "FUSB303BTMX")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C895444")
 			)
 			(property
 				(name "Sheetname")
@@ -5112,6 +6426,12 @@
 			(description "7A Boost Converters, Adjustable output voltage (PFM), input 2.7 to 12V , output 4.5 to 12.6V, VQFN-11")
 			(fields
 				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "MPN") "TPS61089RNRR")
+				(field
+					(name "LCSC Part #") "C165129")
+				(field
 					(name "Footprint") "Package_DFN_QFN:Texas_VQFN-RNR0011A-11")
 				(field
 					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/tps61089.pdf")
@@ -5122,6 +6442,18 @@
 				(lib "Regulator_Switching")
 				(part "TPS61089")
 				(description "7A Boost Converters, Adjustable output voltage (PFM), input 2.7 to 12V , output 4.5 to 12.6V, VQFN-11")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "MPN")
+				(value "TPS61089RNRR")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C165129")
 			)
 			(property
 				(name "Sheetname")
@@ -5193,6 +6525,12 @@
 			(description "4-Channel Low Capacitance TVS Diode Array, DFN-10 / USON-10")
 			(fields
 				(field
+					(name "Manufacturer") "Diodes Incorporated")
+				(field
+					(name "MPN") "D3V3XA4B10LP-7")
+				(field
+					(name "LCSC Part #") "C1980462")
+				(field
 					(name "Footprint") "Package_DFN_QFN:Diodes_UDFN-10_1x2.5mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf")
@@ -5203,6 +6541,18 @@
 				(lib "Power_Protection")
 				(part "D3V3XA4B10LP")
 				(description "4-Channel Low Capacitance TVS Diode Array, DFN-10 / USON-10")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Diodes Incorporated")
+			)
+			(property
+				(name "MPN")
+				(value "D3V3XA4B10LP-7")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C1980462")
 			)
 			(property
 				(name "Sheetname")
@@ -5271,6 +6621,12 @@
 			(description "I2C Controlled Single Cell (Li-Ion / Li-Polymer) 5A Fast Charger with MaxCharge, USB BC1.2 Detection, 3.9..14V VBUS, 3.840..4.608V charge voltage range, 1.5 MHz (buck mode) and 500 kHz /1.5 MHz (boost mode), WQFN-24")
 			(fields
 				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "MPN") "BQ25895RTWR")
+				(field
+					(name "LCSC Part #") "C80200")
+				(field
 					(name "Footprint") "Cryobelt:Texas_RTW_WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias")
 				(field
 					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/bq25895.pdf")
@@ -5281,6 +6637,18 @@
 				(lib "Cryobelt_Power")
 				(part "BQ25895RTW")
 				(description "I2C Controlled Single Cell (Li-Ion / Li-Polymer) 5A Fast Charger with MaxCharge, USB BC1.2 Detection, 3.9..14V VBUS, 3.840..4.608V charge voltage range, 1.5 MHz (buck mode) and 500 kHz /1.5 MHz (boost mode), WQFN-24")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "MPN")
+				(value "BQ25895RTWR")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C80200")
 			)
 			(property
 				(name "Sheetname")
@@ -5394,6 +6762,12 @@
 			(description "Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 3.3V Output Voltage, VSON-10")
 			(fields
 				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "MPN") "TPS63001DRCR")
+				(field
+					(name "LCSC Part #") "C28060")
+				(field
 					(name "Footprint") "Package_SON:Texas_DRC0010J_ThermalVias")
 				(field
 					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/tps63000.pdf")
@@ -5404,6 +6778,18 @@
 				(lib "Regulator_Switching")
 				(part "TPS63001")
 				(description "Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 3.3V Output Voltage, VSON-10")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "MPN")
+				(value "TPS63001DRCR")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C28060")
 			)
 			(property
 				(name "Sheetname")
@@ -5474,6 +6860,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "CC0603KRX7R9BB104")
+				(field
+					(name "LCSC Part #") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -5485,6 +6877,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "CC0603KRX7R9BB104")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -5528,6 +6932,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "CC0603KRX7R9BB104")
+				(field
+					(name "LCSC Part #") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -5539,6 +6949,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "CC0603KRX7R9BB104")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -5582,6 +7004,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRM188R61E105KA12D")
+				(field
+					(name "LCSC Part #") "C77046")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -5593,6 +7021,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R61E105KA12D")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C77046")
 			)
 			(property
 				(name "Sheetname")
@@ -5636,6 +7076,12 @@
 			(description "Unpolarized capacitor")
 			(fields
 				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "MPN") "GRT188R61E106ME13D")
+				(field
+					(name "LCSC Part #") "C697423")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -5647,6 +7093,18 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "MPN")
+				(value "GRT188R61E106ME13D")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C697423")
 			)
 			(property
 				(name "Sheetname")
@@ -5684,77 +7142,41 @@
 			)
 		)
 		(comp
-			(ref "D6")
-			(value "SS12")
-			(footprint "Diode_SMD:D_SMA")
-			(datasheet "https://www.vishay.com/docs/88746/ss12.pdf")
-			(description "20V 1A Schottky Diode, SMA")
-			(fields
-				(field
-					(name "Footprint") "Diode_SMD:D_SMA")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/88746/ss12.pdf")
-				(field
-					(name "Description") "20V 1A Schottky Diode, SMA")
-			)
-			(libsource
-				(lib "Diode")
-				(part "SS12")
-				(description "20V 1A Schottky Diode, SMA")
-			)
-			(property
-				(name "Sheetname")
-				(value "Fan Control")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Fan Control.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "diode Schottky")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "D*SMA*")
-			)
-			(sheetpath
-				(names "/Fan Control/")
-				(tstamps "/ab28a137-5ca4-49ec-83fd-1c9558542ea3/")
-			)
-			(tstamps "747b1e8e-50ad-4578-868f-0fcb81c72edd")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "J4")
-			(value "CFM-5010V-155-310")
-			(footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm")
-			(datasheet "https://www.sameskydevices.com/product/resource/cfm-50v.pdf")
-			(description "Same Sky CFM-5010V-155-310 two-wire fan, 12 V, 81 mA max; ON/OFF only, manufacturer prohibits power or ground PWM speed control")
+			(value "Conn_01x03_Pin")
+			(footprint "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal")
+			(description "Generic connector, single row, 01x03, script generated")
 			(fields
 				(field
-					(name "Footprint") "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm")
+					(name "Manufacturer") "JST")
 				(field
-					(name "Datasheet") "https://www.sameskydevices.com/product/resource/cfm-50v.pdf")
+					(name "MPN") "SM03B-GHS-TB(LF)(SN)")
 				(field
-					(name "Description") "Same Sky CFM-5010V-155-310 two-wire fan, 12 V, 81 mA max; ON/OFF only, manufacturer prohibits power or ground PWM speed control")
+					(name "LCSC Part #") "C514175")
+				(field
+					(name "Footprint") "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
 			)
 			(libsource
-				(lib "Connector_Generic")
-				(part "Conn_01x02")
-				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+				(lib "Connector")
+				(part "Conn_01x03_Pin")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Manufacturer")
+				(value "JST")
+			)
+			(property
+				(name "MPN")
+				(value "SM03B-GHS-TB(LF)(SN)")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C514175")
 			)
 			(property
 				(name "Sheetname")
@@ -5776,7 +7198,7 @@
 				(names "/Fan Control/")
 				(tstamps "/ab28a137-5ca4-49ec-83fd-1c9558542ea3/")
 			)
-			(tstamps "3370bd77-1de2-479b-b3d5-627919b59002")
+			(tstamps "8b4393ae-9a82-4309-a0ff-28c72f374ea4")
 			(units
 				(unit
 					(name "A")
@@ -5787,28 +7209,49 @@
 						(pin
 							(num "2")
 						)
+						(pin
+							(num "3")
+						)
 					)
 				)
 			)
 		)
 		(comp
 			(ref "Q4")
-			(value "AO3400A")
+			(value "2N7002")
 			(footprint "Package_TO_SOT_SMD:SOT-23")
-			(datasheet "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf")
-			(description "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23")
+			(datasheet "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF")
+			(description "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
 			(fields
+				(field
+					(name "Manufacturer") "Microchip Technology")
+				(field
+					(name "MPN") "2N7002-G")
+				(field
+					(name "LCSC Part #") "C616191")
 				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
-					(name "Datasheet") "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf")
+					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF")
 				(field
-					(name "Description") "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23")
+					(name "Description") "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
 			)
 			(libsource
 				(lib "Transistor_FET")
-				(part "AO3400A")
-				(description "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23")
+				(part "2N7002")
+				(description "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Microchip Technology")
+			)
+			(property
+				(name "MPN")
+				(value "2N7002-G")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C616191")
 			)
 			(property
 				(name "Sheetname")
@@ -5820,7 +7263,7 @@
 			)
 			(property
 				(name "ki_keywords")
-				(value "N-Channel MOSFET")
+				(value "N-Channel Switching MOSFET")
 			)
 			(property
 				(name "ki_fp_filters")
@@ -5830,7 +7273,7 @@
 				(names "/Fan Control/")
 				(tstamps "/ab28a137-5ca4-49ec-83fd-1c9558542ea3/")
 			)
-			(tstamps "2f861533-1f27-4a91-bd3f-40b8a0ee827d")
+			(tstamps "71494bba-be58-49a8-a206-89df3f4a80a0")
 			(units
 				(unit
 					(name "A")
@@ -5850,10 +7293,16 @@
 		)
 		(comp
 			(ref "R25")
-			(value "0.05R/0.1%")
+			(value "0.05R/1%")
 			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
+				(field
+					(name "Manufacturer") "FOJAN")
+				(field
+					(name "MPN") "FRM121WFR050TM")
+				(field
+					(name "LCSC Part #") "C7467249")
 				(field
 					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
@@ -5866,6 +7315,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "FOJAN")
+			)
+			(property
+				(name "MPN")
+				(value "FRM121WFR050TM")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C7467249")
 			)
 			(property
 				(name "Sheetname")
@@ -5909,6 +7370,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-071KL")
+				(field
+					(name "LCSC Part #") "C22548")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -5920,6 +7387,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-071KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C22548")
 			)
 			(property
 				(name "Sheetname")
@@ -5958,10 +7437,16 @@
 		)
 		(comp
 			(ref "R27")
-			(value "100R")
+			(value "1k")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Resistor")
 			(fields
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-071KL")
+				(field
+					(name "LCSC Part #") "C22548")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
@@ -5974,6 +7459,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-071KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C22548")
 			)
 			(property
 				(name "Sheetname")
@@ -5995,7 +7492,7 @@
 				(names "/Fan Control/")
 				(tstamps "/ab28a137-5ca4-49ec-83fd-1c9558542ea3/")
 			)
-			(tstamps "fcd3720a-37a6-43d5-8614-ac7159a7edc1")
+			(tstamps "28d6ccd1-211f-4ee7-af68-85235eaa10ac")
 			(units
 				(unit
 					(name "A")
@@ -6017,6 +7514,12 @@
 			(description "Resistor")
 			(fields
 				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "MPN") "RC0603FR-07100KL")
+				(field
+					(name "LCSC Part #") "C14675")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -6028,6 +7531,18 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07100KL")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C14675")
 			)
 			(property
 				(name "Sheetname")
@@ -6049,7 +7564,7 @@
 				(names "/Fan Control/")
 				(tstamps "/ab28a137-5ca4-49ec-83fd-1c9558542ea3/")
 			)
-			(tstamps "231776fe-e1b0-4613-b6a4-dae4f4c144d9")
+			(tstamps "1c0bff91-8620-4da9-bc9e-ee95619e5058")
 			(units
 				(unit
 					(name "A")
@@ -6072,6 +7587,12 @@
 			(description "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 100 V/V, SOT-23-5")
 			(fields
 				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "MPN") "INA180A3IDBVR")
+				(field
+					(name "LCSC Part #") "C122882")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
 				(field
 					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ina180.pdf")
@@ -6082,6 +7603,18 @@
 				(lib "Amplifier_Current")
 				(part "INA180A3")
 				(description "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 100 V/V, SOT-23-5")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "MPN")
+				(value "INA180A3IDBVR")
+			)
+			(property
+				(name "LCSC Part #")
+				(value "C122882")
 			)
 			(property
 				(name "Sheetname")
@@ -6176,6 +7709,45 @@
 					(num "5")
 					(name "V+")
 					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x03_Pin")
+			(description "Generic connector, single row, 01x03, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03_Pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
 				)
 			)
 		)
@@ -7661,6 +9233,44 @@
 		)
 		(libpart
 			(lib "Transistor_FET")
+			(part "2N7002")
+			(description "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
+			(docs "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "2N7002")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF")
+				(field
+					(name "Description") "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Transistor_FET")
 			(part "AO3400A")
 			(description "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23")
 			(docs "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf")
@@ -8002,6 +9612,38 @@
 		)
 		(net
 			(code "3")
+			(name "+12V_FAN")
+			(class "Default")
+			(node
+				(ref "C32")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C33")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "4")
+				(pinfunction "-_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "4")
 			(name "+BATT")
 			(class "Default")
 			(node
@@ -8035,7 +9677,7 @@
 			)
 		)
 		(net
-			(code "4")
+			(code "5")
 			(name "/ESP32-S3/12V_EN")
 			(class "Default")
 			(node
@@ -8057,7 +9699,7 @@
 			)
 		)
 		(net
-			(code "5")
+			(code "6")
 			(name "/ESP32-S3/BCLK")
 			(class "Default")
 			(node
@@ -8074,7 +9716,7 @@
 			)
 		)
 		(net
-			(code "6")
+			(code "7")
 			(name "/ESP32-S3/D+")
 			(class "USB_90R")
 			(node
@@ -8090,7 +9732,7 @@
 				(pintype "bidirectional")
 			)
 			(node
-				(ref "R6")
+				(ref "R7")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -8107,7 +9749,7 @@
 			)
 		)
 		(net
-			(code "7")
+			(code "8")
 			(name "/ESP32-S3/D-")
 			(class "USB_90R")
 			(node
@@ -8123,7 +9765,7 @@
 				(pintype "bidirectional")
 			)
 			(node
-				(ref "R5")
+				(ref "R6")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -8140,7 +9782,7 @@
 			)
 		)
 		(net
-			(code "8")
+			(code "9")
 			(name "/ESP32-S3/DIN")
 			(class "Default")
 			(node
@@ -8150,13 +9792,13 @@
 				(pintype "input")
 			)
 			(node
-				(ref "R7")
+				(ref "R5")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "9")
+			(code "10")
 			(name "/ESP32-S3/DOUT")
 			(class "Default")
 			(node
@@ -8173,7 +9815,7 @@
 			)
 		)
 		(net
-			(code "10")
+			(code "11")
 			(name "/ESP32-S3/EN")
 			(class "Default")
 			(node
@@ -8200,12 +9842,12 @@
 			)
 		)
 		(net
-			(code "11")
-			(name "/ESP32-S3/FAN_GATE")
+			(code "12")
+			(name "/ESP32-S3/FAN_PWM")
 			(class "Default")
 			(node
 				(ref "R27")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -8216,7 +9858,7 @@
 			)
 		)
 		(net
-			(code "12")
+			(code "13")
 			(name "/ESP32-S3/ID")
 			(class "Default")
 			(node
@@ -8233,7 +9875,7 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "14")
 			(name "/ESP32-S3/IO0")
 			(class "Default")
 			(node
@@ -8255,7 +9897,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "15")
 			(name "/ESP32-S3/I_FAN")
 			(class "Default")
 			(node
@@ -8276,7 +9918,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "16")
 			(name "/ESP32-S3/LRCLK")
 			(class "Default")
 			(node
@@ -8293,7 +9935,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "17")
 			(name "/ESP32-S3/OTG")
 			(class "Default")
 			(node
@@ -8315,7 +9957,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "18")
 			(name "/ESP32-S3/OTG_GATE")
 			(class "Default")
 			(node
@@ -8337,7 +9979,7 @@
 			)
 		)
 		(net
-			(code "18")
+			(code "19")
 			(name "/ESP32-S3/OUT1")
 			(class "Default")
 			(node
@@ -8354,7 +9996,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "20")
 			(name "/ESP32-S3/OUT2")
 			(class "Default")
 			(node
@@ -8371,7 +10013,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "21")
 			(name "/ESP32-S3/SCL")
 			(class "Default")
 			(node
@@ -8399,7 +10041,7 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "22")
 			(name "/ESP32-S3/SDA")
 			(class "Default")
 			(node
@@ -8427,11 +10069,11 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "23")
 			(name "/ESP32-S3/USB_PHY_D+")
 			(class "Default")
 			(node
-				(ref "R6")
+				(ref "R7")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -8443,11 +10085,11 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "24")
 			(name "/ESP32-S3/USB_PHY_D-")
 			(class "Default")
 			(node
-				(ref "R5")
+				(ref "R6")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -8459,7 +10101,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "25")
 			(name "/ESP32-S3/~{BQ_INT}")
 			(class "Default")
 			(node
@@ -8481,7 +10123,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "26")
 			(name "/ESP32-S3/~{SHUTDOWN}")
 			(class "Default")
 			(node
@@ -8497,64 +10139,30 @@
 			)
 		)
 		(net
-			(code "26")
-			(name "/Fan Control/FAN+")
-			(class "Default")
-			(node
-				(ref "C32")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C33")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "D6")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "J4")
-				(pin "1")
-				(pinfunction "Pin_1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R25")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U9")
-				(pin "4")
-				(pinfunction "-_4")
-				(pintype "input")
-			)
-		)
-		(net
 			(code "27")
-			(name "/Fan Control/FAN-")
+			(name "/Power/12V_SW")
 			(class "Default")
 			(node
-				(ref "D6")
-				(pin "2")
-				(pinfunction "A_2")
+				(ref "C15")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "J4")
+				(ref "L1")
 				(pin "2")
-				(pinfunction "Pin_2_2")
+				(pinfunction "2_2")
 				(pintype "passive")
 			)
 			(node
-				(ref "Q4")
-				(pin "3")
-				(pinfunction "D_3")
+				(ref "R11")
+				(pin "1")
 				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "11")
+				(pinfunction "SW_11")
+				(pintype "input")
 			)
 		)
 		(net
@@ -8948,6 +10556,12 @@
 				(ref "J3")
 				(pin "2")
 				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "3")
+				(pinfunction "Pin_3_3")
 				(pintype "passive")
 			)
 			(node
@@ -9397,6 +11011,23 @@
 		)
 		(net
 			(code "40")
+			(name "Net-(J4-Pin_2)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q4")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
 			(name "Net-(Q1-S)")
 			(class "Default")
 			(node
@@ -9418,7 +11049,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "42")
 			(name "Net-(Q4-G)")
 			(class "Default")
 			(node
@@ -9429,7 +11060,7 @@
 			)
 			(node
 				(ref "R27")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -9439,7 +11070,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "43")
 			(name "Net-(R26-Pad2)")
 			(class "Default")
 			(node
@@ -9454,11 +11085,11 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "44")
 			(name "Net-(U2-IO26)")
 			(class "Default")
 			(node
-				(ref "R7")
+				(ref "R5")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -9470,7 +11101,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "45")
 			(name "Net-(U2-IO38)")
 			(class "Default")
 			(node
@@ -9487,7 +11118,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "46")
 			(name "Net-(U2-IO39)")
 			(class "Default")
 			(node
@@ -9504,7 +11135,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "47")
 			(name "Net-(U2-IO40)")
 			(class "Default")
 			(node
@@ -9521,7 +11152,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "48")
 			(name "Net-(U5-BOOT)")
 			(class "Default")
 			(node
@@ -9537,7 +11168,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "49")
 			(name "Net-(U5-COMP)")
 			(class "Default")
 			(node
@@ -9553,7 +11184,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "50")
 			(name "Net-(U5-FB)")
 			(class "Default")
 			(node
@@ -9574,7 +11205,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "51")
 			(name "Net-(U5-FSW)")
 			(class "Default")
 			(node
@@ -9590,7 +11221,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "52")
 			(name "Net-(U5-ILIM)")
 			(class "Default")
 			(node
@@ -9603,33 +11234,6 @@
 				(pin "8")
 				(pinfunction "ILIM_8")
 				(pintype "passive")
-			)
-		)
-		(net
-			(code "52")
-			(name "Net-(U5-SW)")
-			(class "Default")
-			(node
-				(ref "C15")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "L1")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R11")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U5")
-				(pin "11")
-				(pinfunction "SW_11")
-				(pintype "input")
 			)
 		)
 		(net
