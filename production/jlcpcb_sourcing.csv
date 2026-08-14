@@ -29,7 +29,7 @@ L3,1,2.2uH,Cryobelt:FEXU0420,cjiang,FEXU0420S2R2MBS,C54777963,SMT,READY,"8 A Irm
 "Q1,Q3",2,AO3401A,SOT-23,Alpha & Omega Semiconductor,AO3401A,C15127,SMT,READY,"P-channel 30 V"
 Q2,1,AO3400A,SOT-23,Alpha & Omega Semiconductor,AO3400A,C20917,SMT,READY,"N-channel 30 V"
 Q4,1,2N7002,SOT-23,Microchip Technology,2N7002-G,C616191,SMT,READY,"60 V N-channel; PWM open-drain control only"
-"D1,D2,D3",3,SK6805MICRO-J,"SMD 2.7x2.4 mm",OPSCO Optoelectronics,SK6805MICRO-J,C2909056,SMT,READY,"Matches current 2.4x2.7 mm PLCC4 land pattern; verify pin-1 orientation at first article"
+"D1,D2,D3",3,WS2812B-2427-V6,"SMD-4P 2.7x2.4 mm",Worldsemi,WS2812B-2427-V6,C52941389,SMT,READY,"3.3 V compatible 24-bit 800 kbit/s replacement; project-local adapter footprint retains legacy logical pad numbers and marks the required 180 degree physical orientation; verify physical pin 1 at lower right in the JLC assembly viewer"
 D4,1,Red LED,0603,"Hubei KENTO Elec",KT-0603R,C2286,SMT,READY,"Red charge/status indicator; 1.8-2.4 V forward voltage"
 D5,1,SS12,SMA,onsemi,SS12,C184027,SMT,READY,"20 V 1 A Schottky"
 TH1,1,10k NTC,0603,Murata,NCU18XH103F60RB,C440252,SMT,READY,"3380 K nominal B25/50; 1%"

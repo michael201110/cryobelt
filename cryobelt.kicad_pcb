@@ -895,12 +895,12 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
+	(footprint "Cryobelt:WS2812B-2427-V6_Rotated180"
 		(layer "F.Cu")
 		(uuid "121bde11-5dfc-4b5c-9662-2996a1913fbb")
 		(at 118.2 113.975)
-		(descr "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
-		(tags "LED RGB NeoPixel Nano PLCC-4")
+		(descr "Worldsemi WS2812B-2427-V6; 3.3 V compatible; remapped for 180 degree physical substitution")
+		(tags "LED RGB NeoPixel 2427 3.3V rotated 180")
 		(property "Reference" "D1"
 			(at 0 -2.2 0)
 			(layer "F.SilkS")
@@ -913,7 +913,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6805"
+		(property "Value" "WS2812B-2427-V6"
 			(at 0 2.7 0)
 			(layer "F.Fab")
 			(uuid "70a155a5-305a-46e6-b9fb-1eb400e20638")
@@ -924,7 +924,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -937,7 +937,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -950,7 +950,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OPSCO Optoelectronics"
+		(property "Manufacturer" "Worldsemi"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -963,7 +963,7 @@
 				)
 			)
 		)
-		(property "MPN" "SK6805MICRO-J"
+		(property "MPN" "WS2812B-2427-V6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -976,7 +976,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2909056"
+		(property "LCSC Part #" "C52941389"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -989,7 +989,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*")
+		(property ki_fp_filters "*WS2812B*2427*Rotated180*")
 		(path "/b99f980d-9887-47c3-8fb8-9c3e900909e8/e2a37e0f-c6cb-4bf9-84f6-6654bfa828f3")
 		(sheetname "/ESP32-S3/")
 		(sheetfile "ESP32-S3.kicad_sch")
@@ -1153,7 +1153,7 @@
 			(uuid "b9d14c0b-2e44-4c5e-8485-0beeb9826b84")
 		)
 		(fp_text user "1"
-			(at -2.3 -0.65 0)
+			(at 2.3 0.65 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "11ff9887-4015-4992-b13b-5c8098bd8fac")
@@ -1220,18 +1220,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "C:/Users/ASUS/Documents/GitHub/libs/3dmodels/SK6805-2.4x2.7.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -7256,12 +7245,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
+	(footprint "Cryobelt:WS2812B-2427-V6_Rotated180"
 		(layer "F.Cu")
 		(uuid "563e5716-93bd-47fd-8412-bb4978080240")
 		(at 118.2 80.975)
-		(descr "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
-		(tags "LED RGB NeoPixel Nano PLCC-4")
+		(descr "Worldsemi WS2812B-2427-V6; 3.3 V compatible; remapped for 180 degree physical substitution")
+		(tags "LED RGB NeoPixel 2427 3.3V rotated 180")
 		(property "Reference" "D3"
 			(at 0 -2.2 0)
 			(layer "F.SilkS")
@@ -7274,7 +7263,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6805"
+		(property "Value" "WS2812B-2427-V6"
 			(at 0 2.7 0)
 			(layer "F.Fab")
 			(uuid "21e5fb10-0ee5-4cc3-9e5f-4ddab2df6895")
@@ -7285,7 +7274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7298,7 +7287,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7311,7 +7300,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OPSCO Optoelectronics"
+		(property "Manufacturer" "Worldsemi"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7324,7 +7313,7 @@
 				)
 			)
 		)
-		(property "MPN" "SK6805MICRO-J"
+		(property "MPN" "WS2812B-2427-V6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7337,7 +7326,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2909056"
+		(property "LCSC Part #" "C52941389"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7350,7 +7339,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*")
+		(property ki_fp_filters "*WS2812B*2427*Rotated180*")
 		(path "/b99f980d-9887-47c3-8fb8-9c3e900909e8/8658ffb2-a78e-4296-97ab-7bb47b996cb8")
 		(sheetname "/ESP32-S3/")
 		(sheetfile "ESP32-S3.kicad_sch")
@@ -7514,7 +7503,7 @@
 			(uuid "5860613d-dadb-4be2-9a12-72820721dd2e")
 		)
 		(fp_text user "1"
-			(at -2.3 -0.65 0)
+			(at 2.3 0.65 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8b8e1ecc-487a-47be-a414-c3a413eca375")
@@ -7581,18 +7570,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "C:/Users/ASUS/Documents/GitHub/libs/3dmodels/SK6805-2.4x2.7.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -14520,12 +14498,12 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
+	(footprint "Cryobelt:WS2812B-2427-V6_Rotated180"
 		(layer "F.Cu")
 		(uuid "9e7bdcb9-89b6-4174-805d-fe645780cca7")
 		(at 118.2 97.475)
-		(descr "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf")
-		(tags "LED RGB NeoPixel Nano PLCC-4")
+		(descr "Worldsemi WS2812B-2427-V6; 3.3 V compatible; remapped for 180 degree physical substitution")
+		(tags "LED RGB NeoPixel 2427 3.3V rotated 180")
 		(property "Reference" "D2"
 			(at 0 -2.2 0)
 			(layer "F.SilkS")
@@ -14538,7 +14516,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6805"
+		(property "Value" "WS2812B-2427-V6"
 			(at 0 2.7 0)
 			(layer "F.Fab")
 			(uuid "330b7c60-763a-4834-8555-86e35928549d")
@@ -14549,7 +14527,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14562,7 +14540,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14575,7 +14553,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OPSCO Optoelectronics"
+		(property "Manufacturer" "Worldsemi"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14588,7 +14566,7 @@
 				)
 			)
 		)
-		(property "MPN" "SK6805MICRO-J"
+		(property "MPN" "WS2812B-2427-V6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14601,7 +14579,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2909056"
+		(property "LCSC Part #" "C52941389"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14614,7 +14592,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*")
+		(property ki_fp_filters "*WS2812B*2427*Rotated180*")
 		(path "/b99f980d-9887-47c3-8fb8-9c3e900909e8/6eaca372-a2d3-41b4-851b-8119af01dabf")
 		(sheetname "/ESP32-S3/")
 		(sheetfile "ESP32-S3.kicad_sch")
@@ -14778,7 +14756,7 @@
 			(uuid "5bb27248-649f-4a50-8148-c24e0dbc5419")
 		)
 		(fp_text user "1"
-			(at -2.3 -0.65 0)
+			(at 2.3 0.65 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7501c870-e059-4fb5-bb91-c586f811474a")
@@ -14845,18 +14823,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "C:/Users/ASUS/Documents/GitHub/libs/3dmodels/SK6805-2.4x2.7.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)

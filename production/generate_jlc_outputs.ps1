@@ -78,6 +78,12 @@ $positions = Import-Csv $rawPosPath
 $cpl = foreach ($pos in $positions) {
     if (-not $assemblyByRef.ContainsKey($pos.Ref)) { continue }
     $rotation = [double]$pos.Rot
+    # The WS2812B-2427-V6 pinout is the former SK6805 footprint pinout rotated
+    # by 180 degrees. The adapter footprint preserves the routed pad locations,
+    # so the physical part requires the same correction in JLC's CPL.
+    if ($assemblyByRef[$pos.Ref].'Manufacturer Part Number' -eq 'WS2812B-2427-V6') {
+        $rotation += 180
+    }
     while ($rotation -lt 0) { $rotation += 360 }
     while ($rotation -ge 360) { $rotation -= 360 }
     [pscustomobject]@{

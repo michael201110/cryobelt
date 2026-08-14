@@ -7673,7 +7673,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6805"
+		(property "Value" "WS2812B-2427-V6"
 			(at 81.28 143.4398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7683,7 +7683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
+		(property "Footprint" "Cryobelt:WS2812B-2427-V6_Rotated180"
 			(at 72.39 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7695,7 +7695,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf"
 			(at 73.66 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -7707,7 +7707,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution"
 			(at 71.12 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7718,7 +7718,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OPSCO Optoelectronics"
+		(property "Manufacturer" "Worldsemi"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7729,7 +7729,7 @@
 				)
 			)
 		)
-		(property "MPN" "SK6805MICRO-J"
+		(property "MPN" "WS2812B-2427-V6"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7740,7 +7740,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2909056"
+		(property "LCSC Part #" "C52941389"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8535,7 +8535,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6805"
+		(property "Value" "WS2812B-2427-V6"
 			(at 113.03 143.4398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8545,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
+		(property "Footprint" "Cryobelt:WS2812B-2427-V6_Rotated180"
 			(at 104.14 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8557,7 +8557,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf"
 			(at 105.41 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -8569,7 +8569,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution"
 			(at 102.87 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8580,7 +8580,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OPSCO Optoelectronics"
+		(property "Manufacturer" "Worldsemi"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8591,7 +8591,7 @@
 				)
 			)
 		)
-		(property "MPN" "SK6805MICRO-J"
+		(property "MPN" "WS2812B-2427-V6"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8602,7 +8602,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2909056"
+		(property "LCSC Part #" "C52941389"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -10314,7 +10314,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6805"
+		(property "Value" "WS2812B-2427-V6"
 			(at 49.53 143.4398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10324,7 +10324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
+		(property "Footprint" "Cryobelt:WS2812B-2427-V6_Rotated180"
 			(at 40.64 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10336,7 +10336,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20251224/E1A9CA691775549EA7D4A013FE234DF1.pdf"
 			(at 41.91 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -10348,7 +10348,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "3.3 V compatible addressable RGB LED; 24-bit 800 kbit/s; footprint remapped for 180 degree substitution"
 			(at 39.37 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10359,7 +10359,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OPSCO Optoelectronics"
+		(property "Manufacturer" "Worldsemi"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -10370,7 +10370,7 @@
 				)
 			)
 		)
-		(property "MPN" "SK6805MICRO-J"
+		(property "MPN" "WS2812B-2427-V6"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -10381,7 +10381,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2909056"
+		(property "LCSC Part #" "C52941389"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
