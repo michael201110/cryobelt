@@ -2010,7 +2010,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2021,7 +2021,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2032,7 +2032,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14675"
+		(property "LCSC Part #" "C25803"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2315,7 +2315,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2326,7 +2326,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-071KL"
+		(property "MPN" "0603WAF1001T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2337,7 +2337,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22548"
+		(property "LCSC Part #" "C21190"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2900,7 +2900,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2911,7 +2911,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRT188R61E106ME13D"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2922,7 +2922,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C697423"
+		(property "LCSC Part #" "C96446"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3646,7 +3646,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3657,7 +3657,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61E105KA12D"
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3668,7 +3668,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C77046"
+		(property "LCSC Part #" "C15849"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3916,7 +3916,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3927,7 +3927,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-071KL"
+		(property "MPN" "0603WAF1001T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3938,7 +3938,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22548"
+		(property "LCSC Part #" "C21190"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

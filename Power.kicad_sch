@@ -8201,7 +8201,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8212,7 +8212,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61A106KAALD"
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8223,7 +8223,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C703114"
+		(property "LCSC Part #" "C19702"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8978,7 +8978,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8989,7 +8989,7 @@
 				)
 			)
 		)
-		(property "MPN" "TCC0805X5R226M250FT"
+		(property "MPN" "CL21A226MAQNNNE"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9000,7 +9000,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C20416420"
+		(property "LCSC Part #" "C45783"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -10207,7 +10207,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -10218,7 +10218,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61A106KAALD"
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -10229,7 +10229,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C703114"
+		(property "LCSC Part #" "C19702"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -10923,7 +10923,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -10934,7 +10934,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -10945,7 +10945,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C98220"
+		(property "LCSC Part #" "C25804"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11038,7 +11038,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11049,7 +11049,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61A106KAALD"
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11060,7 +11060,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C703114"
+		(property "LCSC Part #" "C19702"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11900,7 +11900,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11911,7 +11911,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11922,7 +11922,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C98220"
+		(property "LCSC Part #" "C25804"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12130,7 +12130,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12141,7 +12141,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61A106KAALD"
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12152,7 +12152,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C703114"
+		(property "LCSC Part #" "C19702"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12323,7 +12323,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12334,7 +12334,7 @@
 				)
 			)
 		)
-		(property "MPN" "TCC0805X5R226M250FT"
+		(property "MPN" "CL21A226MAQNNNE"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12345,7 +12345,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C20416420"
+		(property "LCSC Part #" "C45783"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12438,7 +12438,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12449,7 +12449,7 @@
 				)
 			)
 		)
-		(property "MPN" "TCC0805X5R226M250FT"
+		(property "MPN" "CL21A226MAQNNNE"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12460,7 +12460,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C20416420"
+		(property "LCSC Part #" "C45783"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12745,7 +12745,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12756,7 +12756,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61A106KAALD"
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12767,7 +12767,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C703114"
+		(property "LCSC Part #" "C19702"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13096,7 +13096,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13107,7 +13107,7 @@
 				)
 			)
 		)
-		(property "MPN" "TCC0805X5R226M250FT"
+		(property "MPN" "CL21A226MAQNNNE"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13118,7 +13118,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C20416420"
+		(property "LCSC Part #" "C45783"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13211,7 +13211,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13222,7 +13222,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13233,7 +13233,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14675"
+		(property "LCSC Part #" "C25803"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13868,7 +13868,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13879,7 +13879,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61A106KAALD"
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13890,7 +13890,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C703114"
+		(property "LCSC Part #" "C19702"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -14529,7 +14529,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -14540,7 +14540,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61A105KA61D"
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -14551,7 +14551,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C86012"
+		(property "LCSC Part #" "C15849"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -15066,7 +15066,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -15077,7 +15077,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -15088,7 +15088,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14675"
+		(property "LCSC Part #" "C25803"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -15973,7 +15973,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -15984,7 +15984,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -15995,7 +15995,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14675"
+		(property "LCSC Part #" "C25803"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -16480,7 +16480,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -16491,7 +16491,7 @@
 				)
 			)
 		)
-		(property "MPN" "TCC0805X5R226M250FT"
+		(property "MPN" "CL21A226MAQNNNE"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -16502,7 +16502,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C20416420"
+		(property "LCSC Part #" "C45783"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17034,7 +17034,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17045,7 +17045,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61A106KAALD"
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17056,7 +17056,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C703114"
+		(property "LCSC Part #" "C19702"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17263,7 +17263,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17274,7 +17274,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17285,7 +17285,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14675"
+		(property "LCSC Part #" "C25803"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17611,7 +17611,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+ (property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17622,7 +17622,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61A106KAALD"
+		(property "MPN" "CL10A106KP8NNNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17633,7 +17633,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C703114"
+		(property "LCSC Part #" "C19702"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
