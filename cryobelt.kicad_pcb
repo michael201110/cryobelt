@@ -759,7 +759,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TORCH"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -772,7 +772,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603X7R50V473KN"
+		(property "MPN" "CL10B473KB8NNNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -785,7 +785,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C53084515"
+		(property "LCSC Part #" "C1622"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

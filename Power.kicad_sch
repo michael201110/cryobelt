@@ -8349,7 +8349,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30.1k"
+		(property "Value" "30k"
 			(at 228.6 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8404,7 +8404,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0730K1L"
+		(property "MPN" "0603WAF3002T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11971,7 +11971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "300k"
 			(at 158.75 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12026,7 +12026,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07270KL"
+		(property "MPN" "0603WAF3003T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -12037,7 +12037,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137755"
+		(property "LCSC Part #" "C23024"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13675,7 +13675,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TORCH"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13686,7 +13686,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603X7R50V473KN"
+		(property "MPN" "CL10B473KB8NNNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13697,7 +13697,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C53084515"
+		(property "LCSC Part #" "C1622"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -14962,7 +14962,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB472"
+		(property "MPN" "0603B472K500NT"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -14973,7 +14973,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C106218"
+		(property "LCSC Part #" "C53987"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17105,7 +17105,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "301k"
+		(property "Value" "300k"
 			(at 109.22 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17160,7 +17160,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07301KL"
+		(property "MPN" "0603WAF3003T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17171,7 +17171,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C273742"
+		(property "LCSC Part #" "C23024"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
