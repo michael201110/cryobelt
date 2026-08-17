@@ -7224,7 +7224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 26.67 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7235,7 +7235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf"
 			(at 26.67 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7257,7 +7257,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Omron"
+		(property "Manufacturer" "XKB Connection"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7268,7 +7268,7 @@
 				)
 			)
 		)
-		(property "MPN" "B3FS-1000P"
+		(property "MPN" "TS-1187A-B-A-B"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -7279,7 +7279,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C271750"
+		(property "LCSC Part #" "C318884"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11067,7 +11067,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 46.99 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11078,7 +11078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf"
 			(at 46.99 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11100,7 +11100,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Omron"
+		(property "Manufacturer" "XKB Connection"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11111,7 +11111,7 @@
 				)
 			)
 		)
-		(property "MPN" "B3FS-1000P"
+		(property "MPN" "TS-1187A-B-A-B"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11122,7 +11122,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C271750"
+		(property "LCSC Part #" "C318884"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

@@ -8393,7 +8393,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8415,7 +8415,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137745"
+		(property "LCSC Part #" "C22984"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8640,7 +8640,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A226MP8NUNE"
+		(property "MPN" "CL10A226MQ8NRNC"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8651,7 +8651,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C86295"
+		(property "LCSC Part #" "C59461"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9126,7 +9126,7 @@
 				)
 			)
 		)
-		(property "Value" "SS12"
+		(property "Value" "SS14"
 			(at 262.5725 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9147,7 +9147,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf"
 			(at 262.89 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9158,7 +9158,7 @@
 				)
 			)
 		)
-		(property "Description" "20V 1A Schottky Diode, SMA"
+		(property "Description" "40V 1A Schottky diode, SMA"
 			(at 262.89 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9169,7 +9169,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "MDD (Microdiode Semiconductor)"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9180,7 +9180,7 @@
 				)
 			)
 		)
-		(property "MPN" "SS12"
+		(property "MPN" "SS14"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9191,7 +9191,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C184027"
+		(property "LCSC Part #" "C2480"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9787,7 +9787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryobelt:FEXU0420"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4030S"
 			(at 107.95 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10365,7 +10365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryobelt:FEXU0420"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4030S"
 			(at 241.3 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -12015,7 +12015,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -14725,7 +14725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_APV_ANR4020"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4030S"
 			(at 223.52 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -14758,7 +14758,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Shun Xiang Nuo"
+ (property "Manufacturer" "cjiang"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -14769,7 +14769,7 @@
 				)
 			)
 		)
-		(property "MPN" "SMNR4020-2.2UH"
+		(property "MPN" "FEXU0420S2R2MBS"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -14780,7 +14780,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C135262"
+		(property "LCSC Part #" "C54777963"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -14951,7 +14951,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -17149,7 +17149,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+ (property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)

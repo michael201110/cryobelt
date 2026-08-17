@@ -761,7 +761,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2158,7 +2158,7 @@
 				)
 			)
 		)
-		(property "Value" "0.05R/1%"
+		(property "Value" "0.01R/1%"
 			(at 80.01 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2212,7 +2212,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRM121WFR050TM"
+		(property "MPN" "FRM121WFR010TM"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2223,7 +2223,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C7467249"
+		(property "LCSC Part #" "C7467248"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3108,7 +3108,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf"
 			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3131,7 +3131,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Microchip Technology"
+ (property "Manufacturer" "Jiangsu Changjing Electronics Technology Co. Ltd."
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3142,7 +3142,7 @@
 				)
 			)
 		)
-		(property "MPN" "2N7002-G"
+		(property "MPN" "2N7002"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3153,7 +3153,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C616191"
+		(property "LCSC Part #" "C8545"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
